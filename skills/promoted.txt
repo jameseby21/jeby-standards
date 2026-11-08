@@ -3,3 +3,6 @@
 # Nothing is promoted yet; CATALOG.md lists the candidates.
 follow-through
 restraint
+formalize-it
+generalize-it
+modularity

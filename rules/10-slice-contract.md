@@ -35,3 +35,8 @@ James, when a delivered design sat an hour with its build tickets ready and nobo
 - A ready ticket assigned to Patch whose dependencies are all in review or done is dispatched within the hour: a worker starts, or the ticket says in `blocked_on` why not (one worker per repository is the only accepted reason, and then the ticket names the worker it waits for).
 - Every Patch turn ends with the dispatch check: `drew list --status ready --assignee main`, unblocked ones first; anything undispatched for more than an hour is a defect in Patch's log and a `drew validate` warning.
 - A design delivery (Chaz's entry with build rows) is not filed until its build worker is named in the build tickets.
+
+## Where a ticket sits (James, 2026-11-08, `$formalize-it`)
+> "Ticket < Track < Project < company < jeby overall, while 'sprint' is more generalized and synced across libraries and maybe some other ways of slicing and dicing them."
+
+- Every ticket sits in exactly one track, every track in one project, every project in one company, every company in jeby overall; each level has its own profile, rollup and view (skill `modularity`). Sprints, assignees, tags and types are slices that cut across the levels and never substitute for one. A board, rollup or report that skips a level, or calls the whole store the "company", is a defect. Personal matters are companies too, in business terms only (health for medical items).
