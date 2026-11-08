@@ -3,6 +3,7 @@
 "Done" is a claim about a complete outcome, supported by evidence, approved in the owner's own words. It is never a synonym for code written, a card moved, a green test, a 200 response, or a feature mentioned in a doc.
 
 ## How it composes
+- These files are the source. They are never copied into tickets; Desk renders the named modules by reference on each ticket, and a project with its own Definition of Done (jRE: `docs/guides/DEFINITION_OF_DONE.md`, declared as `dod_doc:` in its profile) shows that instead. James's rule, 2026-11-08.
 - `core.md` applies to every ticket of every kind: software, data, writing, paperwork, research, a decision.
 - A ticket names the other modules that apply in its frontmatter: `dod: [core, code, docs]`. The reviewer checks exactly those. Anything not named is explicitly out of scope, so silence is never an excuse and never a burden.
 - Each module is a short list of checks. A check passes with evidence, fails, is blocked, or is inapplicable with a one-line reason. "Looks right" is none of those.
