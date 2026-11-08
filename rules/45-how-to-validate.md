@@ -16,3 +16,6 @@ End with a section titled **How to validate**: one line per claim made above it,
 
 ## Commands and screenshots (James, 2026-11-08)
 James: "reminder that how to validate and associated commands and helpful screenshots should all be part of a good ticket." Every ticket carries a `## Commands` section with the exact, copy-pasteable commands for its work and its validation, and attaches the screenshots that show the before and the after (Attachments, through the ticket page); a Report that names a command without its output, or a UI change without a screenshot, is incomplete.
+
+## The one step first (James, 2026-11-08, triage MGMT-0009)
+When a fix James asked for is built but not yet where he looks, the first line of the reply is the one step only he can do (or the merge Patch is making), never the last line. A reply that buries that step under the report is a defect of the reply, not of James's attention.
