@@ -17,3 +17,8 @@ James's rule (2026-11-08): "Every ticket needs an assignee -- as a quick complet
 | legal, finance, pricing, channel, boring stuff | joe |
 | build, implementation, filing, dispatch | main (Patch) |
 | code inside a project repo | code:<project> |
+
+## External and private people (James, 2026-11-08)
+James: "For personal items or things that require a human meeting, include those as assignees while still letting me complete and close the associated tickets."
+- A person outside the team (a lawyer, an accountant, a client contact, a family member) can be an assignee when the step is theirs: a meeting, a signature, an answer. The ticket's owner stays James, and James completes and closes it; the external person never sees Desk.
+- External people live in `~/.claude/jeby-private/people.yaml` (kind `external`, `private: true`, a note such as "not yet engaged"), which Desk reads as an include on James's machine only. Tickets reference the key (for example `legal-counsel`), never the name; the display name resolves locally. The key and the note are all that may appear in a repo, a Drive folder or a worker brief.

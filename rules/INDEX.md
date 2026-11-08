@@ -12,5 +12,6 @@
 @50-commits-and-ip.md
 @60-reuse-and-cleanup.md
 @70-models-effort-memory.md
+@75-skill-cues.md
 @80-security-agent-rules.md
 @90-test-first-slicing-drift.md
