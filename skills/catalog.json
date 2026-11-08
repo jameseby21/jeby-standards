@@ -40,7 +40,8 @@
       "repo": "jeby Real Estate",
       "path": "jeby Real Estate/.agents/skills/chunked-delivery/SKILL.md",
       "description": "Deliver broad multi-part Jeby work in bounded verified Git checkpoints when context, runtime, merge risk, or user instructions make one continuous change unsafe.",
-      "sha256": "a0ea7bc6ad48"
+      "sha256": "a0ea7bc6ad48",
+      "pair": "ideal-trajectory"
     },
     {
       "name": "code-commenting",
@@ -54,7 +55,8 @@
       "repo": "jeby Real Estate",
       "path": "jeby Real Estate/.agents/skills/common-sense/SKILL.md",
       "description": "Reconcile an explicit request with its practical consequences and observable evidence when planning or delivery risks a preventable contradiction.",
-      "sha256": "d6d442985175"
+      "sha256": "d6d442985175",
+      "pair": "imagination"
     },
     {
       "name": "data-analyzer",
@@ -110,7 +112,8 @@
       "repo": "jeby Real Estate",
       "path": "jeby Real Estate/.agents/skills/follow-through/SKILL.md",
       "description": "Carry authorized work through execution and verification instead of stopping after announcing an intended action.",
-      "sha256": "494722108550"
+      "sha256": "494722108550",
+      "pair": "restraint"
     },
     {
       "name": "generalize-it",
@@ -124,7 +127,8 @@
       "repo": "jeby Real Estate",
       "path": "jeby Real Estate/.agents/skills/ideal-trajectory/SKILL.md",
       "description": "Translate agreed project priorities into bounded development stages, dependencies, validation gates, and durable handoffs for immediate and longer-term work.",
-      "sha256": "e409329246d6"
+      "sha256": "e409329246d6",
+      "pair": "chunked-delivery"
     },
     {
       "name": "language-feedback",
@@ -166,7 +170,8 @@
       "repo": "jeby Real Estate",
       "path": "jeby Real Estate/.agents/skills/proactivity/SKILL.md",
       "description": "Infer small, directly implied improvements from explicit product requirements while keeping scope bounded, evidence-based, and visible to the user.",
-      "sha256": "554aac5d4c6e"
+      "sha256": "554aac5d4c6e",
+      "pair": "scope"
     },
     {
       "name": "response-conventions",
@@ -180,7 +185,8 @@
       "repo": "jeby Real Estate",
       "path": "jeby Real Estate/.agents/skills/restraint/SKILL.md",
       "description": "Preserve user intent while excluding unsafe, destructive, archival, speculative, or out-of-scope portions of a broad request, and hold steps whose meaning is ambiguous or unestablished.",
-      "sha256": "bdbf5bbb80d6"
+      "sha256": "bdbf5bbb80d6",
+      "pair": "follow-through"
     },
     {
       "name": "review-promotion",
@@ -194,7 +200,8 @@
       "repo": "jeby Real Estate",
       "path": "jeby Real Estate/.agents/skills/scope/SKILL.md",
       "description": "Map an open-ended or cross-layer change to its affected code, data, tests, skills, and documentation before implementation.",
-      "sha256": "6ae848edb0a9"
+      "sha256": "6ae848edb0a9",
+      "pair": "proactivity"
     },
     {
       "name": "skill-hierarchy",
@@ -285,63 +292,72 @@
       "repo": "jeby Real Estate",
       "path": "jeby Real Estate/.agents/skills/whimsy/SKILL.md",
       "description": "Ambient layer beneath overall-philosophy that offers optional, unexecuted playful ideas beside any other skill; it reads no files, runs no commands, and never blocks, widens, or replaces work.",
-      "sha256": "5f74ec3b2495"
+      "sha256": "5f74ec3b2495",
+      "pair": "seriousness"
     },
     {
       "name": "chunked-delivery",
       "repo": "standards",
       "path": "standards/skills/chunked-delivery/SKILL.md",
       "description": "Deliver broad multi-part work in bounded verified Git checkpoints when context, runtime, merge risk, or user instructions make one continuous change unsafe; the partner of ideal-trajectory.",
-      "sha256": "e90c3fda2575"
+      "sha256": "e90c3fda2575",
+      "pair": "ideal-trajectory"
     },
     {
       "name": "common-sense",
       "repo": "standards",
       "path": "standards/skills/common-sense/SKILL.md",
       "description": "Reconcile an explicit request with its practical consequences and observable evidence when planning or delivery risks a preventable contradiction; the partner of imagination.",
-      "sha256": "ac2d2aaeb453"
+      "sha256": "ac2d2aaeb453",
+      "pair": "imagination"
     },
     {
       "name": "ideal-trajectory",
       "repo": "standards",
       "path": "standards/skills/ideal-trajectory/SKILL.md",
       "description": "Translate agreed project priorities into bounded development stages, dependencies, validation gates, and durable handoffs for immediate and longer-term work; the partner of chunked-delivery.",
-      "sha256": "1621c6d6a47e"
+      "sha256": "1621c6d6a47e",
+      "pair": "chunked-delivery"
     },
     {
       "name": "imagination",
       "repo": "standards",
       "path": "standards/skills/imagination/SKILL.md",
       "description": "Propose the alternative nobody asked for, including stopping the owner before a step when a better option exists or has not been considered; the partner of common-sense, held in check by restraint.",
-      "sha256": "ebe11de50a84"
+      "sha256": "ebe11de50a84",
+      "pair": "common-sense"
     },
     {
       "name": "proactivity",
       "repo": "standards",
       "path": "standards/skills/proactivity/SKILL.md",
       "description": "Infer small, directly implied improvements from explicit requirements while keeping scope bounded, evidence-based, and visible to the user; the partner of scope.",
-      "sha256": "7488b9ba7e36"
+      "sha256": "7488b9ba7e36",
+      "pair": "scope"
     },
     {
       "name": "scope",
       "repo": "standards",
       "path": "standards/skills/scope/SKILL.md",
       "description": "Map an open-ended or cross-layer change to its affected code, data, tests, skills, and documentation before implementation; the partner of proactivity.",
-      "sha256": "6b6450025f33"
+      "sha256": "6b6450025f33",
+      "pair": "proactivity"
     },
     {
       "name": "seriousness",
       "repo": "standards",
       "path": "standards/skills/seriousness/SKILL.md",
       "description": "Facts, failures, evidence, verdicts and money are never cute; a red Not run reads the same in every style; the counterweight to whimsy, which stays in workflow communication only.",
-      "sha256": "d8b3f23edbfb"
+      "sha256": "d8b3f23edbfb",
+      "pair": "whimsy"
     },
     {
       "name": "whimsy",
       "repo": "standards",
       "path": "standards/skills/whimsy/SKILL.md",
       "description": "Ambient layer that offers one optional, unexecuted playful idea beside any other skill, in workflow communication only; it reads no files, runs no commands, never touches facts, failures or money, and is held in check by seriousness.",
-      "sha256": "5f4ea19511ec"
+      "sha256": "5f4ea19511ec",
+      "pair": "seriousness"
     }
   ],
   "rules": [

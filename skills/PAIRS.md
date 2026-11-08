@@ -11,6 +11,6 @@ James's principle (2026-11-08): his preferred agent skills come in complementary
 | **chunked-delivery** and **ideal-trajectory** | Broad work lands in reviewable chunks; the SMART queue keeps the trajectory | generalized copies in `skills/` (sprint-ledger wording now points at Desk tickets); both in `promoted.txt` | written 2026-11-08 (STD-0039); install pending |
 
 Rules for pairs:
-- A promoted half promotes its partner in the same ticket; `sync_skills.py --install` installs both.
+- A promoted half promotes its partner in the same ticket. `sync_skills.py` reads the table above (rows written `**a** and **b**`), shows each skill's partner in the CATALOG.md Pair column, and at `--install` warns and adds a partner missing from `promoted.txt`, so half a pair is never installed. `--install --dry-run` reports this without copying anything.
 - Each half names the other in its text ("pairs with ..."), the way jRE's pair does, and the skill-hierarchy test checks the link.
 - Writing a missing half is a `standards` ticket with James's one-line definition as its Context.
