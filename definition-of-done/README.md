@@ -16,6 +16,7 @@
 | `data` | changes a schema, a migration, a fixture, an intake pipeline |
 | `api` | changes an endpoint or a contract |
 | `ui` | changes a screen, a page, a form, a chart |
+| `security` | takes user data, handles a credential, or exposes a service or a public repo |
 | `docs` | should change documentation (nearly every code ticket) |
 | `content` | produces writing, copy, a script, a film document, a page for people |
 | `admin` | is paperwork, an account, a filing, a payment, a calendar item |
