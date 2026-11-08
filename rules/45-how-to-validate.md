@@ -13,3 +13,6 @@ End with a section titled **How to validate**: one line per claim made above it,
 
 ## Shape of a good line
 `drew --home . validate` prints `0 error(s)` · open http://127.0.0.1:8765/about and read "Ticket tools count cards" in the first paragraph · `git log --oneline -1` in desk/ shows a commit newer than 0017e60 · the file tickets/ALGO-0002-*.md has one line under Comments, not two.
+
+## Commands and screenshots (James, 2026-11-08)
+James: "reminder that how to validate and associated commands and helpful screenshots should all be part of a good ticket." Every ticket carries a `## Commands` section with the exact, copy-pasteable commands for its work and its validation, and attaches the screenshots that show the before and the after (Attachments, through the ticket page); a Report that names a command without its output, or a UI change without a screenshot, is incomplete.
