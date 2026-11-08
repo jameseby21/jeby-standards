@@ -25,3 +25,13 @@ Assigning work to a thread is a ticket (`assignee: chaz`) plus one entry in that
 
 ## Files by default, nothing public
 Every result a thread produces is also a file in its folder (under Deliverables) or in intake/. Artifact links are views for James, never where work lives. No thread publishes anything publicly.
+
+## Every item has a ticket (James, 2026-11-08)
+James: "make it so that any coworker updating the teams file or the tickets will never make that mistake again and ALL items and deliverables get associated to a ticket."
+- Nothing a thread produces exists without a ticket id: every entry's `Tickets:` line names at least one real id (never "TBD" or "none" for work); every deliverable file, canvas board, artifact and pull request carries a ticket id in its name, title or first line. A pull request title starts with the id (`JEBYUS-0051: ...`).
+- A thread that has work but no id asks Patch for one first, in a one-line entry whose `Tickets:` says `needs id`; Patch files the ticket and answers within the hour. Until then the thread does not post the deliverable.
+- Patch's side: an entry, file or pull request without an id is filed as a ticket before anything else is done with it, the thread is told the id, and the miss is a defect in Patch's log, not the thread's.
+- Checks: `drew intake --check` refuses an entry whose `Tickets:` is empty, TBD or none when the entry proposes or delivers work; the jeby-us and Desk repositories gain a pull-request check that the title carries an id; the brand register and the Deliverables folders list the id beside every file.
+
+## Updates on demand, not on a clock (James, 2026-11-08)
+James: "Let's stop any sweeps -- I will manually prompt when it's time to update or you will be able to tell from changes in tickets" The hourly sweep is retired. Patch reads the team folders when James says so, or when a ticket changes in a way that points at a folder (a hand-off set, a comment that names an entry). Threads keep posting as before; nothing is lost because every item has a ticket (above) and the ticket is the record.
