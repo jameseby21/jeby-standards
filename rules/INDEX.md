@@ -2,6 +2,7 @@
 
 @00-precedence.md
 @10-slice-contract.md
+@15-text-formatting.md
 @20-docs-duty.md
 @25-team-folders.md
 @30-privacy-boundary.md
