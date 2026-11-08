@@ -21,3 +21,8 @@
 
 ## Visible progress (James, 2026-11-08)
 - Every running process a person starts shows visible, helpful progress where they clicked: what is happening, how far along (a bar with steps or a count, not only a spinning circle), and then a plain success or failure sentence a person can read. This is an app-wide rule for every jeby product, and clarifying a ticket to meet it is a refinement, not a scope change.
+
+## Repetition is an emergency (James, 2026-11-08)
+- When James asks for the same thing a second time, the ticket becomes an emergency: priority p0, tag `emergency`, and the session stops everything else to deliver it with the tools already present. A third ask opens a triage ticket (what was asked, when, what Patch did instead, the root cause, the preventative measure) that closes only with a rule or skill change and a lesson.
+- A step is handed to James only when it truly needs his credentials, his body or his judgment. Before handing anything over, the session names the tool it lacks and checks whether another tool already present does the job (git can merge what the GitHub CLI would merge). 'Waiting on James' is written in the ticket's blocked_on with the reason, never left implicit.
+- Being told once is being told. The sweep, the Needs me list and the ticket's own blocked_on carry the ask forward; forgetting is a defect of the record, not of memory.
