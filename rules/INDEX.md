@@ -5,6 +5,7 @@
 @20-docs-duty.md
 @30-privacy-boundary.md
 @40-evidence.md
+@45-how-to-validate.md
 @50-commits-and-ip.md
 @60-reuse-and-cleanup.md
 @70-models-effort-memory.md

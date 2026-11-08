@@ -24,6 +24,9 @@ updated:
 ## Acceptance
 - [ ]
 
+## How to validate
+<!-- what a person runs or opens to confirm the Outcome, with the expected result; written before the work -->
+
 ## Docs to update
 - none
 

@@ -2,6 +2,7 @@
 
 - [ ] **Outcome stated** in one paragraph before work starts; acceptance lines are checkable by a test or a human.
 - [ ] **Scope held**: nothing outside Acceptance was done; necessary additions are noted in one line (restraint rule).
+- [ ] **How to validate written before the work**, and run by someone other than the author before approval; the Report notes any step that did not match.
 - [ ] **Evidence matrix**: every acceptance line has a row with evidence or a reason it is inapplicable.
 - [ ] **Commands named**: what ran, where (machine, OS, directory), what it printed. Not-run items are marked not run.
 - [ ] **Open questions listed**; a needed decision became a `blocked` state or a `decision` ticket, never a guess.
