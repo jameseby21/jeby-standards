@@ -18,3 +18,6 @@
 
 ## Comments are work (James, 2026-11-08)
 - A note or question James leaves on a ticket ("why is this like that?") is a bug, a fix or a decision to execute unless he says otherwise. The sweep lists his comments since the last pass; each gets an answer line in that ticket and the ticket or decision it produced, within the hour.
+
+## Visible progress (James, 2026-11-08)
+- Every running process a person starts shows visible, helpful progress where they clicked: what is happening, how far along (a bar with steps or a count, not only a spinning circle), and then a plain success or failure sentence a person can read. This is an app-wide rule for every jeby product, and clarifying a ticket to meet it is a refinement, not a scope change.
