@@ -1,0 +1,340 @@
+{
+  "skills": [
+    {
+      "name": "add-data-component",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/add-data-component/SKILL.md",
+      "description": "Add a real-estate data component across schema, backend, frontend, fixtures, tests, and documentation with a repeatable verification path.",
+      "sha256": "0f7df04e8002"
+    },
+    {
+      "name": "add-data-field",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/add-data-field/SKILL.md",
+      "description": "Add or change one Jeby data field across storage, validation, contracts, fixtures, UI formatting, tests, and documentation without losing meaning or provenance.",
+      "sha256": "9b4cee9f86fc"
+    },
+    {
+      "name": "add-data-object",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/add-data-object/SKILL.md",
+      "description": "Add a new Jeby domain object or observation type with ownership, lifecycle, provenance, persistence, API, UI, fixture, and verification contracts.",
+      "sha256": "e30c50c2c262"
+    },
+    {
+      "name": "appforge-trainer",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/appforge-trainer/SKILL.md",
+      "description": "Capture every real-estate skill upgrade as an AppForge training case, and learn reusable improvements from feature additions and debugging.",
+      "sha256": "28f2df951c98"
+    },
+    {
+      "name": "backend-upgrade",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/backend-upgrade/SKILL.md",
+      "description": "Extend Jeby backend behavior, contracts, validation, authorization, services, and tests for a feature or schema change.",
+      "sha256": "2f1e9b9b4b52"
+    },
+    {
+      "name": "chunked-delivery",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/chunked-delivery/SKILL.md",
+      "description": "Deliver broad multi-part Jeby work in bounded verified Git checkpoints when context, runtime, merge risk, or user instructions make one continuous change unsafe.",
+      "sha256": "a0ea7bc6ad48"
+    },
+    {
+      "name": "code-commenting",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/code-commenting/SKILL.md",
+      "description": "Maintain informative source comments when reviewing or changing application code without adding redundant noise.",
+      "sha256": "4da2d6ac7124"
+    },
+    {
+      "name": "common-sense",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/common-sense/SKILL.md",
+      "description": "Reconcile an explicit request with its practical consequences and observable evidence when planning or delivery risks a preventable contradiction.",
+      "sha256": "d6d442985175"
+    },
+    {
+      "name": "data-analyzer",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/data-analyzer/SKILL.md",
+      "description": "Build or review Jeby market analysis with explicit populations, time bases, source provenance, comparable quality, uncertainty, and reproducible calculations.",
+      "sha256": "11b720eba7f7"
+    },
+    {
+      "name": "data-visualizer",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/data-visualizer/SKILL.md",
+      "description": "Present Jeby data analysis through legible, truthful, interactive visualizations with clear scales, comparison context, accessible alternatives, and tested states.",
+      "sha256": "b621065a313e"
+    },
+    {
+      "name": "database-updates",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/database-updates/SKILL.md",
+      "description": "Trace real-estate writes through lot dependencies, runtime integrity checks, recovery and migration evidence. Use for create, edit, delete or publication changes that affect linked records.",
+      "sha256": "a69fec98eb82"
+    },
+    {
+      "name": "debugging",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/debugging/SKILL.md",
+      "description": "Diagnose and repair Jeby application, reproducibility, browser, LAN, Docker, and Windows workflow failures with evidence-first, minimally scoped verification.",
+      "sha256": "ef547a2e8767"
+    },
+    {
+      "name": "design-fixture-scenarios",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/design-fixture-scenarios/SKILL.md",
+      "description": "Design deterministic Jeby fixture scenarios that exercise varied valid, invalid, duplicate, temporal, and negative-control behavior without claiming synthetic facts are real.",
+      "sha256": "1a4db1bd24d4"
+    },
+    {
+      "name": "diversity",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/diversity/SKILL.md",
+      "description": "Require meaningful variation across generated data, fixtures, themes, inputs, outputs, and failure cases when repetition would hide untested behavior.",
+      "sha256": "98d4f3ced36a"
+    },
+    {
+      "name": "evolve-data-contract",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/evolve-data-contract/SKILL.md",
+      "description": "Evolve a shared Jeby data contract across schema, API, fixtures, UI consumers, versions, compatibility, and rollout evidence.",
+      "sha256": "50d08220a997"
+    },
+    {
+      "name": "follow-through",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/follow-through/SKILL.md",
+      "description": "Carry authorized work through execution and verification instead of stopping after announcing an intended action.",
+      "sha256": "06b5e161cf68"
+    },
+    {
+      "name": "generalize-it",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/generalize-it/SKILL.md",
+      "description": "Generalize a proven local change across every affected product surface, environment, test, and document without preserving accidental machine assumptions.",
+      "sha256": "6b4d0dd50a4a"
+    },
+    {
+      "name": "ideal-trajectory",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/ideal-trajectory/SKILL.md",
+      "description": "Translate agreed project priorities into bounded development stages, dependencies, validation gates, and durable handoffs for immediate and longer-term work.",
+      "sha256": "e409329246d6"
+    },
+    {
+      "name": "language-feedback",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/language-feedback/SKILL.md",
+      "description": "Flag likely spelling, typo, grammar, and syntax issues in user-authored text at a configurable level without derailing the primary task.",
+      "sha256": "1ca5051dcc33"
+    },
+    {
+      "name": "lot-model-change",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/lot-model-change/SKILL.md",
+      "description": "Safely add or change lot-based real-estate data components while preserving temporal history, provenance, fixture reproducibility, and API contracts.",
+      "sha256": "e446696028b4"
+    },
+    {
+      "name": "make-component",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/make-component/SKILL.md",
+      "description": "Deliver a complete Angular component or page with routing, navigation, state, API integration, accessibility, tests, and documentation.",
+      "sha256": "dfa7a6e5b28d"
+    },
+    {
+      "name": "normalize-it",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/normalize-it/SKILL.md",
+      "description": "Normalize real-estate inputs and comparisons while preserving source values, provenance, units, temporal context, and reviewer-visible explanations.",
+      "sha256": "957d0ef545c4"
+    },
+    {
+      "name": "overall-philosophy",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/overall-philosophy/SKILL.md",
+      "description": "Resolve project direction and competing priorities from explicit user values when choosing purposes, tradeoffs, or broad development paths.",
+      "sha256": "81eecf91f1de"
+    },
+    {
+      "name": "proactivity",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/proactivity/SKILL.md",
+      "description": "Infer small, directly implied improvements from explicit product requirements while keeping scope bounded, evidence-based, and visible to the user.",
+      "sha256": "554aac5d4c6e"
+    },
+    {
+      "name": "response-conventions",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/response-conventions/SKILL.md",
+      "description": "Apply the project owner's durable collaboration, status-update, response-format, and validation preferences.",
+      "sha256": "bdf336be6d1d"
+    },
+    {
+      "name": "restraint",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/restraint/SKILL.md",
+      "description": "Preserve user intent while excluding unsafe, destructive, archival, speculative, or out-of-scope portions of a broad request, and hold steps whose meaning is ambiguous or unestablished.",
+      "sha256": "bdbf5bbb80d6"
+    },
+    {
+      "name": "review-promotion",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/review-promotion/SKILL.md",
+      "description": "Evolve Jeby quarantine review, acceptance, deduplication, and publication so staged evidence reaches the correct domain objects with preserved lineage.",
+      "sha256": "07027ebcfd8d"
+    },
+    {
+      "name": "scope",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/scope/SKILL.md",
+      "description": "Map an open-ended or cross-layer change to its affected code, data, tests, skills, and documentation before implementation.",
+      "sha256": "6ae848edb0a9"
+    },
+    {
+      "name": "skill-hierarchy",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/skill-hierarchy/SKILL.md",
+      "description": "Maintain the map of which Jeby skills name which others, the AGENTS.md routing roots, and the declared yin/yang pairs; regenerate and verify the map whenever a skill or routing rule changes.",
+      "sha256": "63cbe892e73b"
+    },
+    {
+      "name": "styling",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/styling/SKILL.md",
+      "description": "Establish and refine the visual language of Jeby Angular surfaces, including hierarchy, spacing, responsive states, contrast, and reusable visual patterns.",
+      "sha256": "a5dfd017ca1e"
+    },
+    {
+      "name": "swe",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/swe/SKILL.md",
+      "description": "Apply disciplined software-engineering checks to Jeby changes: test-first behavior, small evidence audits, durable documentation, and explicit dependency order.",
+      "sha256": "2da168c7df36"
+    },
+    {
+      "name": "testing",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/testing/SKILL.md",
+      "description": "Select and execute Jeby verification at the right depth: a persistent safety baseline plus exhaustive affected-scope checks, or the complete milestone inspection.",
+      "sha256": "8392733de415"
+    },
+    {
+      "name": "ui",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/ui/SKILL.md",
+      "description": "Build or revise coherent Angular interface surfaces with reusable tables, forms, states, navigation, and component-level tests.",
+      "sha256": "449f90a4c3e5"
+    },
+    {
+      "name": "update-schema",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/update-schema/SKILL.md",
+      "description": "Change Jeby database fields, tables, relationships, migrations, fixtures, validators, and schema documentation safely.",
+      "sha256": "9932a2dfaa19"
+    },
+    {
+      "name": "update-ui",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/update-ui/SKILL.md",
+      "description": "Add or revise fields, properties, forms, displays, validation, and tests in existing Jeby frontend surfaces.",
+      "sha256": "114b44539edc"
+    },
+    {
+      "name": "user-knowledge",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/user-knowledge/SKILL.md",
+      "description": "Calibrate explanations and assumptions from an explicit, domain-specific knowledge profile without shaming users or publishing private assessments.",
+      "sha256": "916f3ef9f64e"
+    },
+    {
+      "name": "user-personality",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/user-personality/SKILL.md",
+      "description": "Adapt tone, humor, critique, explanation, and execution posture to an explicit user profile while preserving safety and authorization boundaries.",
+      "sha256": "fe8300ab8066"
+    },
+    {
+      "name": "ux",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/ux/SKILL.md",
+      "description": "Improve Jeby user flows, labels, validation, feedback, accessibility, and recovery paths so people can understand what happened and what to do next.",
+      "sha256": "b3b36f8152d9"
+    },
+    {
+      "name": "validate-relationships",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/validate-relationships/SKILL.md",
+      "description": "Validate Jeby relationship changes for ownership, cardinality, temporal overlap, dependency traversal, archival lineage, and fixture/runtime integrity.",
+      "sha256": "176ab82312fd"
+    },
+    {
+      "name": "validator",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/validator/SKILL.md",
+      "description": "Check a completed cross-layer workflow against its prerequisite chain, persistence effects, and evidence before reporting completion; especially cold-start and multi-entry-point changes.",
+      "sha256": "e73fb5a615c9"
+    },
+    {
+      "name": "whimsy",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.agents/skills/whimsy/SKILL.md",
+      "description": "Ambient layer beneath overall-philosophy that offers optional, unexecuted playful ideas beside any other skill; it reads no files, runs no commands, and never blocks, widens, or replaces work.",
+      "sha256": "5f74ec3b2495"
+    }
+  ],
+  "rules": [
+    {
+      "name": "auth-security.md",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.claude/rules/auth-security.md",
+      "description": "paths:"
+    },
+    {
+      "name": "frontend-routes.md",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.claude/rules/frontend-routes.md",
+      "description": "paths:"
+    },
+    {
+      "name": "migrations.md",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.claude/rules/migrations.md",
+      "description": "paths:"
+    },
+    {
+      "name": "scripts.md",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.claude/rules/scripts.md",
+      "description": "paths:"
+    },
+    {
+      "name": "vault-intake.md",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/.claude/rules/vault-intake.md",
+      "description": "paths:"
+    }
+  ],
+  "operating": [
+    {
+      "name": "CLAUDE.md",
+      "repo": ".",
+      "path": "CLAUDE.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/AGENTS.md"
+    },
+    {
+      "name": "CLAUDE.md",
+      "repo": "jeby Real Estate",
+      "path": "jeby Real Estate/CLAUDE.md"
+    }
+  ]
+}
