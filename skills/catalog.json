@@ -110,7 +110,7 @@
       "repo": "jeby Real Estate",
       "path": "jeby Real Estate/.agents/skills/follow-through/SKILL.md",
       "description": "Carry authorized work through execution and verification instead of stopping after announcing an intended action.",
-      "sha256": "06b5e161cf68"
+      "sha256": "494722108550"
     },
     {
       "name": "generalize-it",
@@ -286,6 +286,20 @@
       "path": "jeby Real Estate/.agents/skills/whimsy/SKILL.md",
       "description": "Ambient layer beneath overall-philosophy that offers optional, unexecuted playful ideas beside any other skill; it reads no files, runs no commands, and never blocks, widens, or replaces work.",
       "sha256": "5f74ec3b2495"
+    },
+    {
+      "name": "common-sense",
+      "repo": "standards",
+      "path": "standards/skills/common-sense/SKILL.md",
+      "description": "Reconcile an explicit request with its practical consequences and observable evidence when planning or delivery risks a preventable contradiction; the partner of imagination.",
+      "sha256": "ac2d2aaeb453"
+    },
+    {
+      "name": "imagination",
+      "repo": "standards",
+      "path": "standards/skills/imagination/SKILL.md",
+      "description": "Propose the alternative nobody asked for, including stopping the owner before a step when a better option exists or has not been considered; the partner of common-sense, held in check by restraint.",
+      "sha256": "ebe11de50a84"
     }
   ],
   "rules": [

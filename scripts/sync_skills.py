@@ -5,7 +5,9 @@ Usage (from anywhere):
   python standards/scripts/sync_skills.py --install  # also copy promoted skills into ~/.claude/skills/
   python standards/scripts/sync_skills.py --check    # exit 1 if the catalog is stale (for hooks and CI)
 
-A skill is any SKILL.md under .agents/skills/<name>/ or .claude/skills/<name>/ in a repo. Rules are
+A skill is any SKILL.md under .agents/skills/<name>/ or .claude/skills/<name>/ in a repo, or under
+standards/skills/<name>/ (the generalized copies; when a name exists in both places the standards copy is
+the one promoted). Rules are
 .claude/rules/*.md. AGENTS.md and CLAUDE.md are listed as a repo's operating files. .venv, node_modules,
 site-packages and .git are skipped. Descriptions come from YAML frontmatter when present.
 """
@@ -56,7 +58,9 @@ def scan(root: Path) -> dict:
     for d, files in walk(root):
         parts = d.relative_to(root).parts
         repo = parts[0] if parts else "."
-        if "SKILL.md" in files and len(parts) >= 3 and parts[-3] in (".agents", ".claude") and parts[-2] == "skills":
+        in_repo = len(parts) >= 3 and parts[-3] in (".agents", ".claude") and parts[-2] == "skills"
+        in_standards = parts[:2] == ("standards", "skills") and len(parts) == 3
+        if "SKILL.md" in files and (in_repo or in_standards):
             p = d / "SKILL.md"
             skills.append({"name": parts[-1], "repo": repo, "path": rel(p, root),
                            "description": frontmatter_description(p),
@@ -120,6 +124,7 @@ def main() -> int:
         target = Path.home() / ".claude" / "skills"
         target.mkdir(parents=True, exist_ok=True)
         by_name = {s["name"]: s for s in cat["skills"]}
+        by_name.update({s["name"]: s for s in cat["skills"] if s["repo"] == "standards"})  # standards copy wins
         for name in promoted:
             s = by_name.get(name)
             if not s:

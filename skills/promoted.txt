@@ -3,3 +3,5 @@
 # Nothing is promoted yet; CATALOG.md lists the candidates.
 follow-through
 restraint
+imagination
+common-sense
