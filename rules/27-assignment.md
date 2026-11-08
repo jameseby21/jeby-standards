@@ -22,3 +22,8 @@ James's rule (2026-11-08): "Every ticket needs an assignee -- as a quick complet
 James: "For personal items or things that require a human meeting, include those as assignees while still letting me complete and close the associated tickets."
 - A person outside the team (a lawyer, an accountant, a client contact, a family member) can be an assignee when the step is theirs: a meeting, a signature, an answer. The ticket's owner stays James, and James completes and closes it; the external person never sees Desk.
 - External people live in `~/.claude/jeby-private/people.yaml` (kind `external`, `private: true`, a note such as "not yet engaged"), which Desk reads as an include on James's machine only. Tickets reference the key (for example `legal-counsel`), never the name; the display name resolves locally. The key and the note are all that may appear in a repo, a Drive folder or a worker brief.
+
+## Four roles (James, 2026-11-08)
+> "a ticket should have a creator, owner (one who is ultimately in charge), main developer, AND also a list of associated users -- those who have some small subtask/input in the overall ticket, and this association list has no limit on number of members"
+
+- `creator`: who filed the ticket, set once from the writer's identity, never edited. `owner`: the one ultimately in charge; one person. `assignee`: the main developer, the one ball. `associated`: everyone with a subtask or input, any number. A person's view of Desk (Today, board, search, outbox, Needs me) covers every ticket where they hold any of the four roles, and says which. Desk builds this in DESK-0185; the ticket template carries the four fields.

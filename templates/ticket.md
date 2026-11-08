@@ -6,6 +6,7 @@ type: slice
 status: inbox
 priority: p2
 size: s
+creator: main
 owner: main
 branch: ""
 depends_on: []
