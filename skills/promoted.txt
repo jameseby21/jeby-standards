@@ -5,3 +5,5 @@ follow-through
 restraint
 imagination
 common-sense
+seriousness
+whimsy
