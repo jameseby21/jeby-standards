@@ -8,6 +8,8 @@ priority: p2
 size: s
 creator: main
 owner: main
+assignee: main
+associated: []
 branch: ""
 depends_on: []
 docs_to_update: []
