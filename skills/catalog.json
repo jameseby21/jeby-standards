@@ -288,6 +288,13 @@
       "sha256": "5f74ec3b2495"
     },
     {
+      "name": "chunked-delivery",
+      "repo": "standards",
+      "path": "standards/skills/chunked-delivery/SKILL.md",
+      "description": "Deliver broad multi-part work in bounded verified Git checkpoints when context, runtime, merge risk, or user instructions make one continuous change unsafe; the partner of ideal-trajectory.",
+      "sha256": "e90c3fda2575"
+    },
+    {
       "name": "common-sense",
       "repo": "standards",
       "path": "standards/skills/common-sense/SKILL.md",
@@ -295,11 +302,32 @@
       "sha256": "ac2d2aaeb453"
     },
     {
+      "name": "ideal-trajectory",
+      "repo": "standards",
+      "path": "standards/skills/ideal-trajectory/SKILL.md",
+      "description": "Translate agreed project priorities into bounded development stages, dependencies, validation gates, and durable handoffs for immediate and longer-term work; the partner of chunked-delivery.",
+      "sha256": "1621c6d6a47e"
+    },
+    {
       "name": "imagination",
       "repo": "standards",
       "path": "standards/skills/imagination/SKILL.md",
       "description": "Propose the alternative nobody asked for, including stopping the owner before a step when a better option exists or has not been considered; the partner of common-sense, held in check by restraint.",
       "sha256": "ebe11de50a84"
+    },
+    {
+      "name": "proactivity",
+      "repo": "standards",
+      "path": "standards/skills/proactivity/SKILL.md",
+      "description": "Infer small, directly implied improvements from explicit requirements while keeping scope bounded, evidence-based, and visible to the user; the partner of scope.",
+      "sha256": "7488b9ba7e36"
+    },
+    {
+      "name": "scope",
+      "repo": "standards",
+      "path": "standards/skills/scope/SKILL.md",
+      "description": "Map an open-ended or cross-layer change to its affected code, data, tests, skills, and documentation before implementation; the partner of proactivity.",
+      "sha256": "6b6450025f33"
     },
     {
       "name": "seriousness",

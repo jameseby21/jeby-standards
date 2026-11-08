@@ -1,0 +1,3 @@
+interface:
+  display_name: "Chunked Delivery"
+  short_description: "Ship broad work as bounded verified checkpoints"
