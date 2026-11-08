@@ -6,6 +6,7 @@
 @20-docs-duty.md
 @25-team-folders.md
 @30-privacy-boundary.md
+@35-data-screening.md
 @40-evidence.md
 @45-how-to-validate.md
 @50-commits-and-ip.md

@@ -5,3 +5,4 @@
 - Secrets live in a password manager or in `.env` files that are gitignored. `Secure docs/` is never committed.
 - Student data, minors, account numbers and ID numbers never enter any repo or Drive folder.
 - Each public edition of a project is swept for private strings before its first push.
+- Data a tool takes from users is screened before it is processed: licensed identifiers, personal data, minors, credentials and unlawful content are excluded by default or never processed. The classes, the default and the overrides are in [35-data-screening.md](35-data-screening.md).
