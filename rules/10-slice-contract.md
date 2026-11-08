@@ -29,3 +29,9 @@
 
 ## What James says moves tickets (James, 2026-11-08)
 James: "In case it wasn't clear: tickets should also be updated and potentially completed based on what I say as well, not just created and added" A statement from James in chat or in a ticket is recorded on the ticket it concerns the same turn: a step he reports done closes his Do ticket with his words as the Decision; a choice he states approves the decision ticket in his words; a verdict moves the ticket to review, changes requested or rejected; a new requirement becomes an acceptance line or a refinement. Creating tickets is the smallest part; keeping the existing ones true to what he said is the duty.
+
+## Dispatch is the job (James, 2026-11-08)
+James, when a delivered design sat an hour with its build tickets ready and nobody on them: "that is precisely your job to delegate"
+- A ready ticket assigned to Patch whose dependencies are all in review or done is dispatched within the hour: a worker starts, or the ticket says in `blocked_on` why not (one worker per repository is the only accepted reason, and then the ticket names the worker it waits for).
+- Every Patch turn ends with the dispatch check: `drew list --status ready --assignee main`, unblocked ones first; anything undispatched for more than an hour is a defect in Patch's log and a `drew validate` warning.
+- A design delivery (Chaz's entry with build rows) is not filed until its build worker is named in the build tickets.
