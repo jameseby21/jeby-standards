@@ -7,3 +7,4 @@
 - One ball at a time: one `in_progress` ticket per owner. Pick up another only after dropping the first (review, blocked or done).
 - Done means proof plus the owner's own words. "Looks good" in a chat is not approval; `desk decide` is.
 - A ticket never restates the Definition of Done. It carries its own Outcome, Acceptance and How to validate, and names the DoD modules that apply; the checks themselves render from the DoD files by reference, and a project's own DoD (declared as `dod_doc:` in its profile) takes precedence for its tickets. The DoD defines doneness; the ticket does not.
+- Execution posture comes from two promoted skills: `follow-through` (authorization starts execution; never end on a plan while safe authorized work remains) and `restraint` (hold scope; the smallest reversible alternative; archives untouched). They are a yin/yang pair and load in every session.
