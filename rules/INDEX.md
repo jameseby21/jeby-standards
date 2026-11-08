@@ -8,3 +8,4 @@
 @50-commits-and-ip.md
 @60-reuse-and-cleanup.md
 @70-models-effort-memory.md
+@80-security-agent-rules.md
