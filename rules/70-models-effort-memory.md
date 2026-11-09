@@ -58,7 +58,8 @@ Chat is not a record. If it is not in one of those places by the end of the turn
 6. **Checkpoint**: commit, or write the ticket Report, at every natural boundary, so an interruption loses at most one step.
 7. **Verify** against the Definition of Done modules the ticket names; mark anything not run as not run.
 8. **Record** (section 4), then **report** to James: outcome first, what was not verified, what he must decide.
-9. **Close** what was opened (processes, agents, temporary files), and say so.
+9. **Close** what was opened (processes, agents, temporary files), and say so. A subagent is stopped by its task id the moment it reports or goes idle; none is left resumable and idle (James, 2026-11-09: "subagents should never be left idle and should forcibly close whenever they're not active").
+10. **Report twice, in two sizes.** While work runs, a short update at each milestone. The after-action report (outcome, evidence, how to validate, what was closed) comes once, only when no subagent, workflow or monitor is running (James, 2026-11-09, decision 88).
 
 ## 6. Preventing duplicate and lost effort
 
