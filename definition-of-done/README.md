@@ -23,6 +23,7 @@
 | `hardware` | touches a device, a sensor, a board, a physical build |
 | `decision` | asks the owner to choose |
 | `release` | makes something public: a push to a public repo, a deploy, a publish |
+| `clearance` | brings in someone else's work, data, name, brand, likeness, code or invention, or makes something public (rule 55, Market Defense) |
 
 ## Status vocabulary (use the narrowest true label)
 

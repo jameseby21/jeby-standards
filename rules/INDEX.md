@@ -9,6 +9,7 @@
 @40-evidence.md
 @45-how-to-validate.md
 @50-commits-and-ip.md
+@55-originality-and-clearance.md
 @60-reuse-and-cleanup.md
 @70-models-effort-memory.md
 @80-security-agent-rules.md
