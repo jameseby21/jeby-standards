@@ -32,6 +32,7 @@ State the effort in the subagent brief. If a task turns out to need more, stop a
 - `/clear` between tickets. Long logs go to files in the scratchpad, named by ticket ID, never into the transcript.
 - A subagent brief states: the goal, what is already ruled out, the files worth reading, the scope, the effort, the model, a time box (twice the ticket's upper effort bound; at the box the worker commits what it has, marks unmet lines unmet and reports), and the exact report wanted. Patch sets a wake-up for the box and messages a worker still running at it (lesson 2026-11-08, CONS-0078 worker). If the brief cannot be written clearly, the task is not understood yet.
 - One agent per topic at a time. Before spawning, check the ledger (section 5) for a running agent on the same topic; if one exists, wait or message it. Never run inline the work that was delegated.
+- A workflow over 50 agents states its expected size and token use before launch, runs early in the week, and checkpoints every agent's result to a file or commit, so a usage limit loses nothing (lesson 2026-11-09: 300 agents, about 27.5 million tokens, weekly limit hit).
 - Usage is watched weekly, not hourly: strongest-model work (reviews, slicing) is scheduled early in the week; extra usage is for a deadline, never routine.
 
 ## 4. Memory: where a fact lives, written in the same turn it is learned
