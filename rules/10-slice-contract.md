@@ -41,3 +41,8 @@ James, when a delivered design sat an hour with its build tickets ready and nobo
 > "Ticket < Track < Project < company < jeby overall, while 'sprint' is more generalized and synced across libraries and maybe some other ways of slicing and dicing them."
 
 - Every ticket sits in exactly one track, every track in one project, every project in one company, every company in jeby overall; each level has its own profile, rollup and view (skill `modularity`). Sprints, assignees, tags and types are slices that cut across the levels and never substitute for one. A board, rollup or report that skips a level, or calls the whole store the "company", is a defect. Personal matters are companies too, in business terms only (health for medical items).
+
+## GPS on every request and ticket (James, 2026-11-09, from Sandeep Swadia)
+> "goal" -- can I define the goal very clearly in one sentence?, "proof" can I tell what 'good' looks like and how will I know if the agent got it rght?, and "steps" can I describe each step clearly without handwaving? I want this formalized for ALL requests, but also I want it to be flexible enough so that I can modify it for my own specific requirements within ANY project
+
+- Every request Patch takes and every ticket opens with GPS: Goal is the Outcome's first sentence ("**Goal.** ..."), Proof is Acceptance plus How to validate, Steps are the Prompt's numbered steps. The skill `gps` holds the checks and the handwaving list; a project overrides them with a `gps:` block in its profile; `drew validate` scores them (DESK-0215).
