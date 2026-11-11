@@ -19,3 +19,6 @@ James: "reminder that how to validate and associated commands and helpful screen
 
 ## The one step first (James, 2026-11-08, triage MGMT-0009)
 When a fix James asked for is built but not yet where he looks, the first line of the reply is the one step only he can do (or the merge Patch is making), never the last line. A reply that buries that step under the report is a defect of the reply, not of James's attention.
+
+## What's running, stated every time (James, 2026-11-11, priority rule)
+James: "If you need me to run/do ANYTHING in order to validate, then that should be part of the "How to Validate" details....." Any step the reader must run (start Desk, check out a branch, open a file) is the first line of How to validate, with the command. Every link is checked to answer before it is sent, and every message names which running thing and which version each link opens. The skill `whats-running` carries the checks.

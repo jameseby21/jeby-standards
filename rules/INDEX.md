@@ -6,6 +6,7 @@
 @20-docs-duty.md
 @25-team-folders.md
 @27-assignment.md
+@28-review-gates.md
 @30-privacy-boundary.md
 @40-evidence.md
 @45-how-to-validate.md
