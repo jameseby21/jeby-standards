@@ -47,3 +47,4 @@ The hierarchy can change, so a skill or a tool reads the levels from the current
 ## Applied
 
 - 2026-11-11: the LIFE-0015 link failed (port 8766 was down). The following message names Desk on 8765 (James's drew-ui) with its version, after a curl check, and How to validate starts with the drew-ui step.
+- 2026-11-11 evening: search and the declutter were built on 2026-11-08 but sat in eight unmerged Desk pull requests. James's Desk (main) never showed them, and the preview that would have shown them had stopped. Added check: **built but not where the reader looks counts as not running.** Every report's first line lists work that has been built but not merged or installed for more than 24 hours, with the one step that puts it on the reader's screen (MGMT-0035).
