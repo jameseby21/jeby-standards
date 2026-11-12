@@ -4,3 +4,4 @@ One row per run of the independent checker. QA owns it. "Real and new" means the
 
 | Date | Request | Model and effort | Tokens | Findings | Real and new | False alarms | Weak How-to-validate found | Verdict so far |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-11-12 | Second low-hanging-fruit pass and the qa/qc skills (DESK-0248, DESK-0074, JRE-0168, JRE-0303, JRE-0305, BSA-0094, STD-0061, MGMT-0037) | haiku, low | 114k | 10 | 8: DNS-rebinding bypass in DESK-0074 (security, confirmed and sent back); silent coverage gap in the scan, 0 of 5,050 formula results on an openpyxl-saved file (BSA-0095); MGMT-0037 Report hid the budget hold; JRE-0303 staging and production acceptance not literally met; four unrunnable or stand-in How-to-validate lines (DESK-0248, DESK-0074, MGMT-0037, STD-0061) | 0 | 6 | 1 of 5 runs: above the keep line. Cost note: 114k tokens is more than 'cheap'; next brief caps reads to the tickets and branch heads |
