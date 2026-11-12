@@ -8,3 +8,5 @@ generalize-it
 modularity
 gps
 whats-running
+qa
+qc
