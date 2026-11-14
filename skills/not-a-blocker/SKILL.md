@@ -36,3 +36,5 @@ When a choice is needed but reversible (a name, a list, an order, a threshold), 
 ## Applied
 
 - 2026-11-08: Patch wrote "The hierarchy had no home" and blocked the company level (DESK-0181), Chaz's design (DESK-0182) and the company board (DESK-0183) on a naming decision (DESK-0180). Corrected the same turn: the proposed company list is the default, the three tickets are unblocked, the decision ticket stays for renaming only.
+
+Pairs with `executive-decisions`, which carries the ladder of who may decide what once a thing is shown not to be a blocker.
