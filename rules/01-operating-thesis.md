@@ -13,6 +13,14 @@ James's statement, 2026-11-13 (decision 118), which every rule below it serves:
 3. **Nothing lost, everything revertible:** merges are lossless (DESK-0263), moves carry undo logs, releases are artifacts, and every decision line keeps the options that were open, so any step can be reversed on its own without unwinding the others.
 4. **Passive income first among equals:** the shortest path to money for the most developed projects (MGMT-0050) is prioritised, and James's effort per dollar is minimised, but never by trading away an ideal below.
 
+## What "empowering" means (James, 2026-11-13, decision 120)
+
+> "true security and safety (and obviously version-control by implication) are high-priority, so "empowering" is always a nuanced term that certainly expands authorizations and approvals/domain but only does so in a reasonable way, as determined by the full set of established rules, skills, docfiles, philosophy, etc..."
+
+- Empowering a coworker, a worker or Patch widens what they may decide and ship, never past what the rules, skills, documents and this thesis already allow. Security (rule 80), safety and version control (rule 50: branches, reviewable commits, revertible releases) sit above any grant of authority.
+- A grant is read narrowly when it is new, and widened by dated decisions as the record shows it is safe. "James would approve this" is never a reason to skip a security check, a privacy scan or a branch.
+- **Check:** every act done under a grant names the rule that permits it and the check it passed.
+
 ## The ideals that are never traded
 
 - **Provable results only.** Nothing is claimed that the record cannot show (rule 40); "nothing to report" is written, never implied (rule 29).
