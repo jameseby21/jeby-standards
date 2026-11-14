@@ -37,6 +37,8 @@ An AI executive is anyone deciding on the owner's behalf: a coworker thread in i
 
 Any failed test moves the choice one rung up.
 
+**Check for the six tests:** the Decision line names the rule or decision that grants the domain (1), cites the DECISIONS.md search (2), states the undo (3), names the gates passed (4), says in one clause why the cost of error is small (5), and quotes or cites the owner's words it rests on (6). A line missing any of the six is rewritten before the act.
+
 ## 3. Recording, so he can reverse it
 
 - **Every decision at rungs 1 to 3 is one dated line in the ticket's Decision section:** who decided (role and session identity, never acting as another person, decision 110), the choice, the options that were open, the rule or decision that permits it, and the undo.
@@ -51,12 +53,16 @@ Any failed test moves the choice one rung up.
 - **Your decisions:** rung 3 only, one line each with options and the recommended default, the ticket, and what waits on it (skill gps, "Asks to James"). Rung 4 items are not listed here; they live in their tickets.
 - **Harness blocks** (a command the session's permission layer refused) are reported as such, with the rule that lifts them, never as a decision for the owner (skill release, rule 9).
 
+**Check for the report:** the four sections exist by name; every line under "Your decisions" has options, a default, a ticket link and a date; nothing under it is answered by DECISIONS.md (grep the key words first).
+
 ## 5. What an executive never decides
 
 - Money moving, prices going public, accounts and credentials, legal signatures, anything binding with a partner (decision 106's positions are his).
 - Rewriting public history, deleting data, force-pushing (rules 50 and 80).
 - A claim about a real person, a health detail, or the owner's own words (rule 30; "James's words win").
 - Widening its own authority: a grant is read narrowly and widened only by the owner's dated decision (decision 120).
+
+**Check for the never-list:** before any action that moves money, touches a credential, signs, rewrites history, deletes data or names a person, the executive searches this list; a match stops the action and writes a blocked_on line naming the owner.
 
 ## Checks before done
 
