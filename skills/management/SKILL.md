@@ -18,7 +18,7 @@ Not a hard rule, by his words: a balance the skill keeps unless he overrides it,
 | **Later** | ideas and future development, fully recorded | at most 10 percent, spent on recording, never on building | a ticket in inbox with GPS, options, risks and the MVP slice named; no code, no design beyond a sketch |
 | **Parked** | what the owner decided not to pursue now | zero | the record stays; a dated line says why |
 
-The budgets are data (`desk.toml`, `[management]`), not constants, and the owner changes them with a dated decision.
+The budgets are data (`desk.toml`, `[management]`), not constants, and the owner changes them with a dated decision. Until the Desk ticket from decision 125 adds that section (the store's `desk.toml` has none yet), the defaults in this table apply, the review-age threshold is seven days, and the per-owner cap and sprint capacity are reported as "not configured" rather than estimated.
 
 ## 2. The signals that move the balance (read from the store, never estimated)
 
@@ -45,7 +45,7 @@ The budgets are data (`desk.toml`, `[management]`), not constants, and the owner
 
 ## 5. Where it lives
 
-- `desk.toml` `[management]`: lane budgets, caps per owner, the review-age threshold, the sprint capacity.
+- `desk.toml` `[management]`: lane budgets, caps per owner, the review-age threshold, the sprint capacity. Not present yet; the defaults in section 1 apply until it is.
 - The weekly review ticket (project management, the MGMT weekly) carries the dashboard and the list of overrides.
 - Desk shows the lane on the board as a column filter and on each ticket (DESK ticket to follow; until then `tags: lane:now|planned|later|parked`).
 
