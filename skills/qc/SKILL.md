@@ -1,6 +1,6 @@
 ---
 name: qc
-description: Quality control after the work, and the independent checker. Use at the end of every request that changed something, once all subagents have reported, and when James writes $qc. A minimal-model subagent, separate from the builders, checks the delivered outputs by a different route than the checks already run, and stress-tests each ticket's How to validate (is it runnable, and would it fail if the change were missing). The partner of qa.
+description: Quality control after the work, and the independent checker. Use at the end of every request that changed something, once all subagents have reported, and when James writes $qc. An independent checker subagent (Sonnet at high effort), separate from the builders, checks the delivered outputs by a different route than the checks already run, and stress-tests each ticket's How to validate (is it runnable, and would it fail if the change were missing). The partner of qa.
 ---
 
 # QC: find what got through, by a route nobody used yet

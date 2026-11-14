@@ -35,7 +35,7 @@ Anything outside these waits for James. The list is reviewed by him first and is
 ## The check, before reporting done
 
 - Every live change in a pass report names its release ticket, its artifact tag and its revert command.
-- `drew release list` (DESK-0266) shows every live release with its tag; the newest is what the live address serves.
+- `drew release list` (planned, DESK-0266; not in the installed drew until it merges) shows every live release with its tag; the newest is what the live address serves.
 
 ## Applied
 
