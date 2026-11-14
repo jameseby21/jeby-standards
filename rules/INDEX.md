@@ -1,6 +1,7 @@
 # jeby standards: always-on rules
 
 @00-precedence.md
+@01-operating-thesis.md
 @10-slice-contract.md
 @15-text-formatting.md
 @20-docs-duty.md
