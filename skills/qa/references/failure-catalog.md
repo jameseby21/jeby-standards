@@ -10,6 +10,7 @@ Each entry is a failure that reached James, with the rule that prevents it (QA) 
 | A2 | Mock or unit test reported as runtime proof | Tests green while the running tool still failed (DESK-0082) | A mocked test is coverage, never runtime proof | Check the claim on the instance the user runs |
 | A3 | Acceptance not literally met but reported done | The scan command counts per cell while the acceptance said "same count as the playground" (BSA-0091) | Each acceptance line is marked met, not met, or changed with a reason | Read each acceptance line against the evidence, line by line |
 | A4 | Partial work reported as done | A pass meant to cover every workable ticket covered one area (2026-11-12) | Scope is the whole ask; any shrinking is stated first | Compare the request's own words ("any", "all", lists) with what was delivered |
+| A5 | A commit message describes files the commit does not contain | A commit said it carried a privacy fix to five files, but only the ticket folders were staged; the five files stayed uncommitted until a later status check (SEC-0019, 2026-11-13) | Write the message from `git diff --cached --stat`, not from the plan | After each commit, compare `git show --stat HEAD` with the message, and run `git status --short` to see nothing the message names is left behind |
 
 ## B. Right fix, wrong place
 
