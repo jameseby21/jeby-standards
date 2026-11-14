@@ -32,6 +32,9 @@ description: "Built is not delivered. A change the owner asked for reaches the i
 8. **Merges that need none of the owner's credentials are the main session's to make once the review gate passes; the owner reviews after, and everything is revertible** (his words, 2026-11-13, recorded on MGMT-0053). Anything that does need his credentials, body or judgment is a `blocked_on` line with that reason.
    **Check:** each merge in the report names the review gate that passed and the Rollback line of rule 4.
 
+9. **A harness refusal is named as such.** When the session's own permission layer refuses a publish or merge command, the report names the command, says it was the harness, and gives the permission rule that lifts it (for example a Claude Code Bash allow rule for `gh repo edit`). It is never worded as a decision for the owner, because the decision was already made (lesson JRE-0363, 2026-11-13).
+   **Check:** no ticket's `blocked_on` reads "James decides" when the cause was a refused command.
+
 ## Check before done
 
 - The pass report opens with the backlog line of rule 2, then lists any change built more than a day ago and not on the owner's instance, each with its one step.
