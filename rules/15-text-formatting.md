@@ -5,7 +5,7 @@ James's rule (2026-11-08), from a ticket whose Context was a wall of text: text 
 | Length of a field | Required shape |
 | --- | --- |
 | under 300 characters | one or two plain sentences |
-| 300 to 1,200 | short paragraphs; a quotation on its own line; ids and commands in backticks |
+| 300 to 1,200 | short paragraphs; a quotation on its own line; commands in backticks; ticket ids and paths plain so Desk links them |
 | 1,200 to 4,000 | a bold lead sentence per paragraph, or a bulleted list; at most one quotation block; links instead of pasted text |
 | over 4,000, or any generated output | saved as a markdown file (intake/ or the project's docs) and linked from the field, which keeps a three-line summary |
 
