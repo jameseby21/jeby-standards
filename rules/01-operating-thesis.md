@@ -21,6 +21,13 @@ James's statement, 2026-11-13 (decision 118), which every rule below it serves:
 - A grant is read narrowly when it is new, and widened by dated decisions as the record shows it is safe. "James would approve this" is never a reason to skip a security check, a privacy scan or a branch.
 - **Check:** every act done under a grant names the rule that permits it and the check it passed.
 
+## The umbrella is where learnings live, not their ceiling (James, 2026-11-14, decision 127)
+
+> "I don't want to limit your scope if it's reasonable.... I mentioned jeby Industries (JI) because it's the umbrella folder that houses ALL learnings, but I don't want that to be an upper or higher limit for you necessarily, just a jumping off point that you may then employ automatically or at least ask me about in order to employ elsewhere...."
+
+- Every learning is recorded in the umbrella (standards, decisions, lessons) and then carried wherever it applies: another repository, a product for other people (AppForge, Desk), a coworker's practice, a public page. Where the rules already permit the use, it is applied without asking (skill generalize-it); where it would leave the owner's own stores or touch a product others use, it is one line in the report first (skill executive-decisions, rung 3).
+- **Check:** a lesson row or a rule names where else it applies, or says "umbrella only" with the reason.
+
 ## The ideals that are never traded
 
 - **Provable results only.** Nothing is claimed that the record cannot show (rule 40); "nothing to report" is written, never implied (rule 29).
