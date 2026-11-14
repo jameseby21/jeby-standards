@@ -45,3 +45,5 @@ description: "A brief is the only thing a worker has, so write it complete, boun
 
 - 2026-11-13: first use is this draft's own brief (goal, exclusions, files, scope, effort, model, a 40-minute time box, the names-as-roles privacy line and the exact report wanted); whether a wake-up was set for its box is not recorded here and is marked Not run until the ledger shows it.
 - Sources of the rules: lessons rows of 2026-11-08 (time box), 2026-11-09 (DESK-0171, DESK-0210) and 2026-11-10 (DESK-0211).
+
+**Ultracode default (decision 124, 2026-11-14):** substantive work runs as a workflow of subagents with verification stages, at the tier the task deserves, even when that tier is low; the main session briefs and records and keeps its own turns short, because its turns spend the owner's Fable allowance.

@@ -28,6 +28,15 @@ A subagent inherits the parent model only when the brief says so. A fork (full c
 
 State the effort in the subagent brief. If a task turns out to need more, stop and re-brief; do not quietly grind.
 
+
+## 2b. Ultracode is the standard for subagent work (James, 2026-11-14, decision 124)
+
+> "Let's include 'ultracode' as a standard for subagents even with a lower model/effort.... This is because my fable limits (used for Patch) are running out fairly quickly but the subagents' usage is not being optimized...."
+
+- **Substantive work goes to workflows of subagents by default** (fan out, independent verification, fixers from tests), whatever model tier the task gets; the model and effort table above still picks the tier per task.
+- **The main session stays lean:** it decides, briefs, records and reports; it does not read whole files, run long investigations or write large documents itself when a subagent on a cheaper model can. Its own turns are the scarce resource (the owner's Fable allowance).
+- **Check:** a pass report states the main session's share of tokens beside the subagents'; a main-session turn that did work a brief could have delegated is a defect.
+
 ## 3. Token and context budget
 
 - `CLAUDE.md` under 60 lines per repo; standards live in rules and skills and load on demand; every enabled skill's name costs context each turn, so promotion is a ticket (DESK-0013).
