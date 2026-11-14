@@ -8,6 +8,7 @@
 @26-structure.md
 @27-assignment.md
 @28-review-gates.md
+@29-project-analyses.md
 @30-privacy-boundary.md
 @40-evidence.md
 @45-how-to-validate.md

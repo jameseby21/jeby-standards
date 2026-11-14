@@ -41,3 +41,4 @@ Never upgrade one label into another.
 
 ## The completion record
 Every ticket's Report carries a compact evidence matrix: one row per acceptance line, with implementation, focused test, runtime or human evidence, and the result or limitation. Source: generalized from jRE's `docs/guides/DEFINITION_OF_DONE.md` (the strict evidence contract), kept compatible with it.
+- `analyses`: the nine analysis files of rule 29 exist, each with a determination (added 2026-11-13).
