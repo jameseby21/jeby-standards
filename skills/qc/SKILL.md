@@ -89,6 +89,8 @@ From 2026-11-13 each row also names the model and effort, because the checker mo
 
 James sees the ledger in the weekly review.
 
+**Verdict after five runs (2026-11-14):** keep. Runs 1 to 5 found 8, 11, 6, 6 and 3 real and new findings with no false alarm; the checker stays, on Sonnet at high effort, with the fixer pattern feeding its findings straight to minimal fixers.
+
 ## Checks before the main session reports done
 
 - The checker ran after the last subagent report, or the reply says why it did not.
