@@ -10,6 +10,7 @@
 @28-review-gates.md
 @29-project-analyses.md
 @30-privacy-boundary.md
+@32-staging-and-approval-for-live.md
 @40-evidence.md
 @45-how-to-validate.md
 @50-commits-and-ip.md
