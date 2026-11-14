@@ -31,7 +31,8 @@ James's rule, 2026-11-13 (decision 116):
 
 ## The check, before reporting done
 
-- `ls docs/analyses` lists the nine files; `grep -L "^Determination:" docs/analyses/*.md` prints nothing.
+- `ls docs/analyses` lists the nine files; `grep -L -E "^Determination: (not applicable|nothing to report|suggestions|warnings|blockers)" docs/analyses/*.md` prints nothing ("pending" is not a determination).
+- Review-by follows the determination: not applicable 12 months, nothing to report 6, suggestions 3, warnings or blockers 1 (reviewer, 2026-11-14).
 - No determination is past its review-by date, or the stale ones are named in the report.
 
 ## Applied

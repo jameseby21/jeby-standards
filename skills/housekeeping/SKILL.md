@@ -49,3 +49,5 @@ description: Keep every jeby store tidy - each item in its one place in the tree
 ## Applied
 
 - 2026-11-13: the personal Drive's partner folder renamed "Internal - <name> (personal backup, never share)" with an undo log (MGMT-0051); two proposals for one secrets outcome filed as one ticket (SEC-0018); one route-to-market ticket instead of 36 (MGMT-0050); pass 2 cut open tickets with lossless merges (MGMT-0048).
+
+- **Worktrees (reviewer, 2026-11-14):** about 20 stale `.git/worktrees` records print Permission denied on every fetch when worktrees live under the temp scratchpad; put worker worktrees in a folder the session can delete, and run `git worktree prune` in every repository at the close-out.
