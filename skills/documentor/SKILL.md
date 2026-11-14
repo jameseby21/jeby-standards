@@ -1,6 +1,6 @@
 ---
 name: documentor
-description: The lightest end-of-request subagent. It makes sure everything the main request and the processes it started did is recorded at the depth that kind of work needs - bugs and build tickets lose nothing, a simple answered question needs no record, and a new feature, command, skill or route lands in its catalog or index under its one source of truth. Use at the end of every request that changed something, before the QC checker, and when James writes $documentor.
+description: The lightest end-of-request subagent. It makes sure everything the main request and the processes it started did is recorded at the depth that kind of work needs - bugs and build tickets lose nothing, a simple answered question needs no record, and a new feature, command, skill or route lands in its catalog or index under its one source of truth. Use at the end of every request that changed something, before the QC checker, and when James writes $documentor. Pairs with housekeeping.
 ---
 
 # Documentor: the right record, at the right depth, in the one right place
