@@ -2,9 +2,9 @@
 
 - A ticket is the unit of work: one project, one outcome, acceptance a test or a human can check, the docs it must touch, size no larger than one focused session. Size `l` is split before it leaves triage.
 - A session claims a ticket before touching code (`drew claim`), works only inside its scope, and writes the Report before stopping (`drew report`). The Report names what changed, the exact commands run, what they printed, and open questions.
-- Needs a decision mid-ticket? Write the question in the Report, `drew block`, stop. Never guess.
+- Needs a decision mid-ticket? Apply `not-a-blocker` and `executive-decisions` first. Block and stop (question in the Report, `drew block`) only for a judgment that cannot be defaulted; otherwise decide with a reversible one-line record (decisions 115 and 123).
 - Effort is a range of hours with a confidence, never points. Every open ticket names the smallest step that still counts on a rough week.
-- One ball at a time: one `in_progress` ticket per owner. Pick up another only after dropping the first (review, blocked or done).
+- One ball at a time: one `in_progress` ticket per assignee (rule 27; Desk counts it there). Pick up another only after dropping the first (review, blocked or done).
 - Done means proof plus the owner's own words. "Looks good" in a chat is not approval; `drew decide` is.
 - A ticket never restates the Definition of Done. It carries its own Outcome, Acceptance and How to validate, and names the DoD modules that apply; the checks themselves render from the DoD files by reference, and a project's own DoD (declared as `dod_doc:` in its profile) takes precedence for its tickets. The DoD defines doneness; the ticket does not.
 - Execution posture comes from two promoted skills: `follow-through` (authorization starts execution; never end on a plan while safe authorized work remains) and `restraint` (hold scope; the smallest reversible alternative; archives untouched). They are a yin/yang pair and load in every session.
@@ -45,4 +45,4 @@ James, when a delivered design sat an hour with its build tickets ready and nobo
 ## GPS on every request and ticket (James, 2026-11-09, from Sandeep Swadia)
 > "goal" -- can I define the goal very clearly in one sentence?, "proof" can I tell what 'good' looks like and how will I know if the agent got it rght?, and "steps" can I describe each step clearly without handwaving? I want this formalized for ALL requests, but also I want it to be flexible enough so that I can modify it for my own specific requirements within ANY project
 
-- Every request Patch takes and every ticket opens with GPS: Goal is the Outcome's first sentence ("**Goal.** ..."), Proof is Acceptance plus How to validate, Steps are the Prompt's numbered steps. The skill `gps` holds the checks and the handwaving list; a project overrides them with a `gps:` block in its profile; `drew validate` scores them (DESK-0215).
+- Every request Patch takes and every ticket opens with GPS: Goal is the Outcome's first sentence ("**Goal.** ..."), Proof is Acceptance plus How to validate, Steps are the Prompt's numbered steps. The skill `gps` holds the checks and the handwaving list; a project overrides them with a `gps:` block in its profile; `drew validate` scores them (planned, DESK-0215; not in the installed drew until it merges).
