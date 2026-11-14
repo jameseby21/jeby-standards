@@ -39,7 +39,7 @@ description: Quality assurance for every jeby request, before and during the wor
 
 ## After every request: schedule QC
 
-When the whole request is done and every subagent has reported, launch one independent checker, following skill `qc`, section "The independent checker". It runs once per request, last, on the cheapest model at low effort. Skip it only for a request that changed nothing (pure discussion). Say in the reply that it was skipped and why.
+When the whole request is done and every subagent has reported, launch one independent checker, following skill `qc`, section "The independent checker". It runs once per request, last, on the model skill `qc` names (Sonnet at high effort since 2026-11-13). The `documentor` and `housekeeping` run just before it, and the `reviewer` subskill just after it when the request changed structure. Skip it only for a request that changed nothing (pure discussion). Say in the reply that it was skipped and why.
 
 Record each run's outcome in `standards/qc/checker-ledger.md` (see `qc`, section "Is it worth it"). QA owns that ledger. The checker is retired or redesigned when the ledger says it finds nothing the process missed.
 

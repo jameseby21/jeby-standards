@@ -5,6 +5,7 @@
 @15-text-formatting.md
 @20-docs-duty.md
 @25-team-folders.md
+@26-structure.md
 @27-assignment.md
 @28-review-gates.md
 @30-privacy-boundary.md

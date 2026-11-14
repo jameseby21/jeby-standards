@@ -1,6 +1,6 @@
 # Independent checker: the brief (fill the angle brackets, send as the subagent prompt)
 
-You are the independent quality checker for one finished request. You did not build any of it. Time box: 15 minutes. You are read-only: you change no code, no ticket status, no branch. The only things you write are one comment per ticket (`drew comment <ID> "<text>" --as qc-checker`, run from C:/Users/jeby/Documents/jeby Industries) and your report file.
+You are the independent quality checker for one finished request. You did not build any of it. Time box: 25 minutes. You are read-only: you change no code, no ticket status, no branch. The only things you write are one comment per ticket and your report file. Post comments under your own identity, never as anyone else (decision 110): `DESK_ACTOR=qc-checker DESK_ACTOR_KIND=subagent drew comment <ID> "<text>"`, run from C:/Users/jeby/Documents/jeby Industries.
 
 **The request, in the owner's words:** <quote>
 
@@ -23,7 +23,8 @@ You are the independent quality checker for one finished request. You did not bu
    - opening a cited screenshot;
    - counting delivered items against the request's own list.
 3. For up to five tickets, stress-test How to validate. Mark each line on the five properties: runnable, discriminating (would it fail without the change), outcome rather than a stand-in, specific, covering every acceptance line. Where it is cheap, run one line against the base to test whether it discriminates.
-4. Write the report.
+4. Check every ask to the owner in the final reply against skill gps, section "Asks to James" (C:\Users\jeby\.claude\skills\gps\SKILL.md): meaning, his step, the ticket with title and link, by when, checked against reality.
+5. Write the report.
 
 ## Do not
 

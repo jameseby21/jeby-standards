@@ -1,6 +1,5 @@
 # One skill name per line. `python scripts/sync_skills.py --install` copies these from their source repo
 # into ~/.claude/skills/<name>/ so they apply in every project. Promotion is a Desk ticket (DESK-0013).
-# Nothing is promoted yet; CATALOG.md lists the candidates.
 follow-through
 restraint
 formalize-it
@@ -10,3 +9,17 @@ gps
 whats-running
 qa
 qc
+reviewer
+documentor
+housekeeping
+scalability
+reproducibility
+common-sense
+imagination
+not-a-blocker
+proactivity
+scope
+chunked-delivery
+ideal-trajectory
+seriousness
+whimsy

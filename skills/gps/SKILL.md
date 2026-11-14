@@ -1,6 +1,6 @@
 ---
 name: gps
-description: Run before acting on any request or writing any ticket: Goal in one sentence, Proof of what good looks like and how to tell, Steps without handwaving. James's "jeby-reality" check for Patch (from Sandeep Swadia), trained on the ticket store, with per-project overrides.
+description: "Run before acting on any request or writing any ticket: Goal in one sentence, Proof of what good looks like and how to tell, Steps without handwaving. James's 'jeby-reality' check for Patch (from Sandeep Swadia), trained on the ticket store, with per-project overrides."
 ---
 
 # GPS: Goal, Proof, Steps
@@ -52,7 +52,23 @@ A project's profile may carry a `gps:` block. Keys: `goal_max_words`, `proof_req
 - **Money and legal** (funding, consulting pricing, terms): `proof_requires: [source]`; `extra_handwaving: ["reach out", network, pitch, negotiate]` unless the step names the party and the channel.
 - **jre:** `proof_requires: [test]` (a named test file and its pass line).
 
+## Asks to James (James, 2026-11-13)
+
+> "What does this mean "(c) Licensing for jebyrealestate.com. No source is licence-cleared yet, so the public build must not ship before a licence list exists."? And what do I have to do about it? And where's the appropriate linked ticket name? These should all be basic details you provide without me having to ask $ (refine the proper skill, and QA/QC independently still review results and that skill's assessment of the results/workflow)." (James, 2026-11-13)
+
+Every ask handed to James, in a reply, a ticket, a Needs me line or a How to validate step, is a small GPS of its own and carries five parts:
+
+1. **Meaning:** what it is about, in plain words a newcomer understands, with no internal shorthand. "A licence list" becomes "a list of each data source with proof we may republish its numbers".
+2. **His step:** exactly what James does (the click path, the command, the email and to whom) and how long it takes; or "nothing: for your information".
+3. **The ticket:** its id, title and link (http://127.0.0.1:8765/ticket/<ID>), where the answer is recorded.
+4. **By when,** and what waits on it.
+5. **Checked against reality:** a click path or command was checked against the real screen, the vendor's help or the tool's documentation before it was sent (failure catalog E5). If it could not be checked, the ask says so.
+
+- An ask missing any part is rewritten before it is sent.
+- The independent checker (skill `qc`) checks every ask in the final reply against these five parts.
+
 ## Applied
 
+- 2026-11-13: the licensing ask rewritten with its meaning, Joe's draft, James's five-minute email and its ticket (JRE-0341); the Drive steps rewritten from Google's help and the Claude Code documentation (MGMT-0044).
 - 2026-11-10: James's request of 2026-11-09 evening split into thirteen goals, each filed as a ticket in GPS shape.
 - 2026-11-10, training pass over 1,466 tickets (STD-0046, intake/2026-11-10-gps-training.md): the first heuristic agreed with a careful reader on Goal 32 of 40, Proof 28 of 40, Steps 30 of 40; the rules above replace it. Proposed scoring moves the store from G 1,268 / P 222 / S 1,345 / all 111 to G 1,087 / P 328 / S 952 / all 164.

@@ -13,11 +13,12 @@ description: Quality control after the work, and the independent checker. Use at
 - **Not a repeat.** It must not re-run the calculations and commands the existing process already ran (the same test suite, the same grep, the same build). It finds a different route to the same claim: a different entry point, the instance the user runs, the live artifact, the base branch, a negative case, a fresh look at a cited screenshot.
 - **It tests the test.** It treats each ticket's How to validate as a possible route, not as truth, and reports whether the procedure is sound.
 - **Last and once.** It runs after the whole request is finished and every other subagent has reported, once per request.
-- **Cheap.** Minimal model, lowest effort, a 15-minute time box, read-only.
+- **Proportionate.** Sonnet at high effort by default, a 25-minute time box, read-only. James, 2026-11-13: "let's ramp UP their model a little bit because that's how important is is. You may use any model/effort combination that you think is appropriate but do NOT use Fable or higher." Judgment-heavy checks (the reviewer, data-loss checks) may use Opus, up to the ceiling James set for the request; never Fable.
+- **The broadest skills.** QA and QC cover every request, code or not. QC's verdict is the gate before the main session reports a request complete; a ticket is done only on its owner's decision (rule 10), and QC never approves one (decision 112).
 
 ## The independent checker
 
-**Launch** (main session, after the request's last report): one subagent, model haiku, effort low, time box 15 minutes. Give it the brief in `references/checker-brief.md`, filled in with:
+**Launch** (main session, after the request's last report): one subagent, model sonnet, effort high, time box 25 minutes (before 2026-11-13: haiku, low, 15 minutes). Give it the brief in `references/checker-brief.md`, filled in with:
 
 - the request in James's words;
 - the tickets touched, with their ids;
@@ -41,7 +42,8 @@ description: Quality control after the work, and the independent checker. Use at
    - **outcome, not a stand-in**: it checks what the user gets, not that a file merely changed;
    - **specific**: it names the expected text, number or state, not "looks right";
    - **covering**: every acceptance line has a matching validation line.
-5. **Report** in the format below. No fixes, no ticket moves. One comment per ticket with its findings, written through `drew comment <ID> "<text>" --as qc-checker`.
+5. **Asks to James.** Check every ask in the final reply against skill `gps`, section "Asks to James": meaning, his step, the ticket with its title and link, by when, checked against reality. A missing part is a medium finding; an unchecked click path or command is high.
+6. **Report** in the format below. No fixes, no ticket moves. One comment per ticket with its findings, written through `drew comment <ID> "<text>" --as qc-checker`.
 
 **Report format** (the checker's final message, also saved as `qc-<date>-<request>.md` in the scratchpad):
 
@@ -53,12 +55,20 @@ description: Quality control after the work, and the independent checker. Use at
 
 Then a How-to-validate table: ticket, verdict (sound, or weak with the reason: not runnable, passes on base, stand-in, vague, gaps), and the line that needs rewriting.
 
+## Around the checker: documentor and housekeeping before, reviewer after
+
+- **Before:** the `documentor` subagent (lightest model) makes sure every item of the request is recorded at the depth it needs, and `housekeeping` puts things in their one place and clears what the request left behind, so the checker reads the final state.
+- **After:** when the request created or moved structure, the `reviewer` subskill compares the structure with the stated goals, through the lenses of `scalability` and `reproducibility`.
+- **Order at the end of a request:** workers report, then documentor and housekeeping, then the checker, then the reviewer, then the reply.
+
 ## Is it worth it (QA owns this ledger)
 
 After each run, the main session adds one row to `standards/qc/checker-ledger.md`:
 
 | Date | Request | Tokens | Findings | Real and new | False alarms | Weak How-to-validate found |
 | --- | --- | --- | --- | --- | --- | --- |
+
+From 2026-11-13 each row also names the model and effort, because the checker moved from haiku to sonnet; compare runs only within one model.
 
 "Real and new" counts the findings that were true and that no earlier check had caught; that number is the checker's whole value.
 

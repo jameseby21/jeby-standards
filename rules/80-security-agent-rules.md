@@ -11,4 +11,5 @@ From Big D's security baseline (2026-11-08), adopted as a standard. Security is 
 7. File findings in the project's findings folder and update the owning docs through the docs index.
 8. A secret that was ever committed, pasted into a chat or intake file, or synced to a shared place is exposed: recommend rotation and let James decide.
 9. Public repos: scan before the first push; secret scanning and push protection on; CI must pass before merging to main; releases built by CI with checksums; a SECURITY.md (jeby alias, not a personal address) and a license in every public repo.
+11. **No one acts as anyone** (James, 2026-11-13, decision 110: "NO ONE (except maybe the real human me) should EVER be able to "ACT AS" anyone until further notice"). No agent, coworker or tool posts, signs or decides as another person. Relaying someone's words is stamped as a relay with the words quoted (`--relaying`, DESK-0261). The check: no record a session wrote names anyone but that session as its writer.
 10. Local tools with a web UI (Desk) bind to this computer only and refuse requests from other origins; no login is added where there is nothing to protect.
