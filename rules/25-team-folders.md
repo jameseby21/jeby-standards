@@ -8,6 +8,7 @@ James's rule, 2026-11-08. The jeby team Drive folders are the only channel betwe
 3. When James says "read only the latest unread updates", that is this procedure, nothing more.
 
 ## Writing: every entry has the same header
+The whole entry, header to ticket table, is the template `templates/UPDATE.md`.
 ```
 Date: 2026-11-08 · From: Chaz · To: Patch (or James, or a thread) · Expires: 2026-11-15
 Supersedes: <title of an earlier entry, or none>
