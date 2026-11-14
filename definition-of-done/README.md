@@ -22,6 +22,7 @@
 | `research` | produces an analysis, a brief, a recommendation |
 | `hardware` | touches a device, a sensor, a board, a physical build |
 | `decision` | asks the owner to choose |
+| `analyses` | starts a project or carries a release: the nine analysis files of rule 29 exist, each with a determination (added 2026-11-13) |
 | `release` | makes something public: a push to a public repo, a deploy, a publish |
 
 ## Status vocabulary (use the narrowest true label)

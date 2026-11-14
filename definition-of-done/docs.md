@@ -6,3 +6,4 @@
 - [ ] New document only when no existing purpose fits, and the index updated in the same change.
 - [ ] Dated records preserved as evidence, not rewritten into current instructions.
 - [ ] A clean-clone reader can follow the README to a running state, or the gap is named.
+- [ ] `docs/QUICKSTART.md` and `docs/COMMANDS.md` present, linked from the README and current with this change (rule 20).

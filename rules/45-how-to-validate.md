@@ -13,3 +13,12 @@ End with a section titled **How to validate**: one line per claim made above it,
 
 ## Shape of a good line
 `drew --home . validate` prints `0 error(s)` · open http://127.0.0.1:8765/about and read "Ticket tools count cards" in the first paragraph · `git log --oneline -1` in desk/ shows a commit newer than 0017e60 · the file tickets/ALGO-0002-*.md has one line under Comments, not two.
+
+## Commands and screenshots (James, 2026-11-08)
+James: "reminder that how to validate and associated commands and helpful screenshots should all be part of a good ticket." Every ticket carries a `## Commands` section with the exact, copy-pasteable commands for its work and its validation, and attaches the screenshots that show the before and the after (Attachments, through the ticket page); a Report that names a command without its output, or a UI change without a screenshot, is incomplete.
+
+## The one step first (James, 2026-11-08, triage MGMT-0009)
+When a fix James asked for is built but not yet where he looks, the first line of the reply is the one step only he can do (or the merge Patch is making), never the last line. A reply that buries that step under the report is a defect of the reply, not of James's attention.
+
+## What's running, stated every time (James, 2026-11-11, priority rule)
+James: "If you need me to run/do ANYTHING in order to validate, then that should be part of the "How to Validate" details....." Any step the reader must run (start Desk, check out a branch, open a file) is the first line of How to validate, with the command. Every link is checked to answer before it is sent, and every message names which running thing and which version each link opens. The skill `whats-running` carries the checks.

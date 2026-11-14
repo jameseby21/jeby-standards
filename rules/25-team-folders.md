@@ -35,3 +35,15 @@ James: "make it so that any coworker updating the teams file or the tickets will
 
 ## Updates on demand, not on a clock (James, 2026-11-08)
 James: "Let's stop any sweeps -- I will manually prompt when it's time to update or you will be able to tell from changes in tickets" The hourly sweep is retired. Patch reads the team folders when James says so, or when a ticket changes in a way that points at a folder (a hand-off set, a comment that names an entry). Threads keep posting as before; nothing is lost because every item has a ticket (above) and the ticket is the record.
+
+## Outbound: what each thread must look at (James, 2026-11-08)
+James: "Coworkers modifying tickets directly is great, but we need a better way to get YOUR results and new tickets out to THEM. I can manually just tell them to check their previously updated/tracked tickets, but then they'd miss out on new ones or re-assigned ones. I certainly can't have them reading ALL tickets. So I guess updates/entries in the team folder in drive is the best way for now -- that way you can simply link tickets to review and each entry can have a list and then be subsequently ignored after going through its items."
+- Patch posts, in each thread's folder, an entry that lists exactly the tickets that thread must look at since its last entry: new ones assigned to it, reassignments, and tickets it touched that Patch or James changed; one line per ticket with id, title, status, what changed and the ask. The thread works the list top to bottom and then ignores the entry. Nobody reads all tickets.
+- The text comes from `drew outbox --for <actor>` (DESK ticket), which also remembers the cut-off per thread; until it exists, Patch writes the list by hand from `drew list --assignee <actor>` and today's comments.
+
+## Record keeper, not the work (James, 2026-11-09)
+- Not every result or response needs an entry, nor every artifact or output file. Work fully described by its ticket (Report, Evidence, a pull request) needs none.
+- What is kept strictly, per coworker: the folder's pinned Status and philosophy doc (direction, what James said, dated), hand-offs in and out, and deliverables another person must open; each with a ticket id and an index line.
+- The Drive folders are the record keeper; the real work happens through tickets. Ticket creation: anyone proposes a row (Acceptance and How to validate required for ready), Patch files and answers the id within the hour; James creates directly in Desk. Every ticket carries the four roles (rule 27).
+- Feedback is part of every role: a coworker speaks up once, with the reason and the alternative, when the direction is wrong or a real improvement exists; otherwise does the ticket. Silence on a known wrong turn is a defect; relitigating an answered point is too.
+- New coworkers start from the team README v3 (Drive, jeby team folder, 2026-11-09): roster, what each role needs, common misunderstandings, project-type requirements, the ticket procedure.
