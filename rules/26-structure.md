@@ -14,7 +14,7 @@ James's rule, 2026-11-13 (decision 111). Names are replaced in brackets here, as
 
 - **A folder named after a partner, client or person is shared with them, and holds only what they may see.**
 - **Internal material about them lives in a sibling named "<name> - Internal (private, never share)"**, which is never shared. Both folders carry a READ ME saying which they are (James, 2026-11-13: "Labeling will be important").
-- **Secrets never live in a shared folder.** The owner's personal Drive may hold a backup of secrets in its own labelled folder (James, 2026-11-13: "My personal SHOULD include secrets though, for the record, because it is a true backup unlike git"); a secret found inside a shared or partner-named folder is moved to that backup folder, never deleted and never shared further (rule 80 item 8 for rotation).
+- **Secrets never live in a shared folder.** The owner keeps a private backup of secrets in a labelled folder of his own choosing, outside every shared tree (James, 2026-11-13: "My personal SHOULD include secrets though, for the record, because it is a true backup unlike git"); a secret found inside a shared or partner-named folder is moved to that backup folder, never deleted and never shared further (rule 80 item 8 for rotation).
 
 ## The check, before reporting done
 

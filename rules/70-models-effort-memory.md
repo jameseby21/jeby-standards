@@ -8,7 +8,9 @@ Formal, so nobody re-decides it per turn; empowering, so the strongest reasoning
 | --- | --- | --- |
 | Main session (Patch): triage, slicing, decisions, reviews of reports | strongest available (Fable/Opus tier) | judgment, short bursts |
 | Project session implementing a ticket | `opusplan` (plans on the strong model, executes on the mid tier); plan mode for anything size `m` | planning is where mistakes are cheapest to fix |
-| Subagent `reviewer`, `security-reviewer`, any adversarial verification | strongest | the cost of a missed defect exceeds the tokens |
+| Subagent `reviewer`, `security-reviewer`, any adversarial verification | strongest allowed for the request | the cost of a missed defect exceeds the tokens |
+| The independent checker (skill `qc`) | Sonnet at high effort by default; Opus for judgment-heavy checks; never above the ceiling James set for the request (decision 109) | James, 2026-11-13: ramp it up a little, never Fable |
+| `documentor`, `housekeeping` end-of-request checks | cheapest (Haiku) | they file and compare; they do not judge |
 | Subagent `doc-sync`, `test-writer`, `slicer`, scaffolding, formatting | mid tier (Sonnet) | mechanical with a spec |
 | Read-only exploration, lookups, catalog scans | cheapest (Haiku) or `Explore` | no judgment needed |
 | Coworker chat threads (Em, Chaz, Joe, Lily, Bri, Big D) | whatever the thread runs; they produce briefs, never code | |
@@ -40,7 +42,7 @@ State the effort in the subagent brief. If a task turns out to need more, stop a
 
 | Kind of fact | Lives in | Written by |
 | --- | --- | --- |
-| A process decision | umbrella `DECISIONS.md` | main session, same turn |
+| A process decision | umbrella `DECISIONS.md` | main session, same turn (the `documentor` check confirms the entry exists; it never writes a decision itself) |
 | A product or architecture decision | the project's ADR | project session, same ticket |
 | Work state (what changed, what ran, what is open) | the ticket's Report | the session that did it, before it stops |
 | A lesson (rule + test) | `standards/` (rule, skill, or the cases index) | whoever fixed it, same ticket |

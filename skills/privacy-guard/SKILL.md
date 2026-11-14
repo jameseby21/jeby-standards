@@ -27,7 +27,7 @@ A street address with a unit number; an employer, current or former; a family re
    **Check:** `git diff --cached --name-only` lists no intake file whose scan result is missing from the report; each such file has a clean scan line.
 5. **Reports, ticket text and comments are text too.** Worker reports and Patch's own comments are where the partner contact's name and the employer terms appeared (failure catalog C1).
    **Check:** run the scanner over `tickets/` and the pass's report files before committing them, including text pasted from a worker (`delegation`, rule 9).
-6. **Replace with a role in brackets that keeps the sentence's meaning.** "[former employer A, beverage-alcohol data]", "[family member]", "[a condo address, unit omitted]". A demo or example whose sample would stop working with a role is given another sample of the same kind, so the logic still runs.
+6. **Replace with a role in brackets that keeps the sentence's meaning.** "[former employer A]", "[family member]", "[a condo address, unit omitted]". A demo or example whose sample would stop working with a role is given another sample of the same kind, so the logic still runs.
    **Check:** reread the changed sentence without the original; it still says what it said. Rescan clean. Run any demo or test the sample fed and confirm it passes.
 7. **A folder named after a person or a partner holds only what they may see (rule 26).** Internal material sits in "Internal - <name>"; secrets never sit in a Drive folder (SEC-0018, failure catalog D8).
    **Check:** before any share, list the folder (`ls` the path) and write, per item, who may see it. Any item the named person may not see is moved before the share, and the move is logged with old path, new path and time (`reproducibility`).
