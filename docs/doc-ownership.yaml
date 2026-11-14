@@ -1,0 +1,17 @@
+# File -> owning documentation section (standards rule 20).
+#   glob  repo-relative, forward slashes; ** crosses folders, * does not, {a,b} alternates.
+#   doc   the document, optionally path#anchor (a heading slug in that file).
+# When a file changes, its owning section changes in the same commit, or the commit says
+# `Docs: none - <reason>`. The last matching rule wins. No commit hook enforces it yet.
+
+- {glob: "rules/*.md",                    doc: "rules/INDEX.md"}
+- {glob: "definition-of-done/*.md",       doc: "definition-of-done/README.md"}
+- {glob: "skills/**",                     doc: "skills/CATALOG.md"}
+- {glob: "scripts/sync_skills.py",        doc: "docs/COMMANDS.md#daily"}
+- {glob: "scripts/check_promoted.py",     doc: "docs/COMMANDS.md#daily"}
+- {glob: "scripts/private_scan.py",       doc: "docs/COMMANDS.md#daily"}
+- {glob: "templates/**",                  doc: "README.md"}
+- {glob: "lessons/**",                    doc: "lessons/LESSONS.md"}
+- {glob: "qc/**",                         doc: "qc/checker-ledger.md"}
+- {glob: "{VERSION,LICENSE}",             doc: "README.md#updating"}
+- {glob: "docs/*.md",                     doc: "README.md"}
