@@ -11,4 +11,4 @@
 - [ ] **Smallest step named** for a rough week while the ticket was open.
 - [ ] **Lesson captured** if a failure occurred: rule plus test, filed where the next ticket will find it.
 - [ ] **Assignee named and notified; the hand-off record linked** (`assignee`, `assigned_at`, `handoff`).
-- [ ] **Owner's words**: approval recorded by `desk decide`, not inferred from chat.
+- [ ] **Owner's words**: approval recorded by `drew decide`, not inferred from chat.

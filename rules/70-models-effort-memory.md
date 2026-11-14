@@ -19,7 +19,7 @@ A subagent inherits the parent model only when the brief says so. A fork (full c
 
 | Effort | Use for |
 | --- | --- |
-| low | lookups, `desk list`, catalog regeneration, renames |
+| low | lookups, `drew list`, catalog regeneration, renames |
 | medium (default) | ordinary slices, reports, docs |
 | high | slicing an intake, a review, a decision brief for James, anything touching money, auth, data integrity or a public push |
 | max | only when James or a rule says so (deep multi-agent review); never on a session's own judgment |
@@ -69,7 +69,7 @@ Chat is not a record. If it is not in one of those places by the end of the turn
 - An agent's report is pasted into the ticket Report, not left in chat.
 - A session that stops without writing its Report is a defect; the Stop hook (M2) refuses it.
 - Scratchpad files are named by ticket ID; the ones worth keeping move into `intake/` or the repo before the session ends.
-- Two sessions never hold the same ticket (`desk claim` refuses it). Two tickets never describe the same outcome (triage checks `desk list` first).
+- Two sessions never hold the same ticket (`drew claim` refuses it). Two tickets never describe the same outcome (triage checks `drew list` first).
 
 ## 7. Subagents sized to the task, every time (James, 2026-11-11; supersedes decision 89's "max model for all agent work")
 James: "regardless of your specific model and effort level, your subagents should be appropriately configured.... I've already spent 25% of my resources in only 2 requests because of you're lack of tact in that regard". Every spawn picks model and effort from section 1 and 2 for that task alone, never by default to the strongest. Mechanical builds with a written spec run on the mid tier at medium effort. Lookups run on the cheapest tier. Only review, adversarial verification and decision briefs get the strongest tier. The brief states both. Patch's report to James names each agent with its model, effort and running time. Before any fan-out of more than two agents, Patch states the planned agents and why in one line. Patch tells James when its own record justifies a model or effort upgrade; it never assumes one.
