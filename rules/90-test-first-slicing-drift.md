@@ -20,7 +20,7 @@ Adopted 2026-11-08 from James's existing practice in jRE (AGENTS.md, the Definit
 - Safety comes from the slice boundary: a session that needs a decision mid-slice writes the question in the Report, marks `blocked`, and stops.
 
 ## Drift-proofing
-- Docs change in the commit that changes the code, or the commit says why not. The owning doc for every file is in `docs/doc-ownership.yaml`; a hook enforces it.
+- Docs change in the commit that changes the code, or the commit says why not. The owning doc for every file is in `docs/doc-ownership.yaml`; a pre-commit hook enforces it where one is installed (today only jeby Real Estate's `.pre-commit-config.yaml`; planned for the other repos).
 - Computable facts (schema head, versions, counts, routes, script inventories) are generated blocks, never typed. A passing validator is not proof the docs are true; check the facts against code before reporting.
 - One owner per fact; link, never restate. Dated records keep evidence and never pose as current instructions. A new chat resumes from the records, never from an earlier chat.
 - Claimed is not run. Anything not run is marked not run.

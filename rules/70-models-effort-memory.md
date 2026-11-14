@@ -8,10 +8,10 @@ Formal, so nobody re-decides it per turn; empowering, so the strongest reasoning
 | --- | --- | --- |
 | Main session (Patch): triage, slicing, decisions, reviews of reports | strongest available (Fable/Opus tier) | judgment, short bursts |
 | Project session implementing a ticket | `opusplan` (plans on the strong model, executes on the mid tier); plan mode for anything size `m` | planning is where mistakes are cheapest to fix |
-| Subagent `reviewer`, `security-reviewer`, any adversarial verification | strongest allowed for the request | the cost of a missed defect exceeds the tokens |
+| Subagent `reviewer`, `security-reviewer` (agent definition planned: STD-0050), any adversarial verification | strongest allowed for the request | the cost of a missed defect exceeds the tokens |
 | The independent checker (skill `qc`) | Sonnet at high effort by default; Opus for judgment-heavy checks; never above the ceiling James set for the request (decision 109) | James, 2026-11-13: ramp it up a little, never Fable |
 | `documentor`, `housekeeping` end-of-request checks | cheapest (Haiku) | they file and compare; they do not judge |
-| Subagent `doc-sync`, `test-writer`, `slicer`, scaffolding, formatting | mid tier (Sonnet) | mechanical with a spec |
+| Subagent `doc-sync`, `test-writer`, `slicer` (agent definitions planned: STD-0050), scaffolding, formatting | mid tier (Sonnet) | mechanical with a spec |
 | Read-only exploration, lookups, catalog scans | cheapest (Haiku) or `Explore` | no judgment needed |
 | Coworker chat threads (Em, Chaz, Joe, Lily, Bri, Big D) | whatever the thread runs; they produce briefs, never code | |
 
@@ -78,7 +78,7 @@ Chat is not a record. If it is not in one of those places by the end of the turn
 
 - Same topic, two places: the ticket wins. If a coworker brief or a chat already has ticketing information, it is imported (DESK-0004), not re-invented.
 - An agent's report is pasted into the ticket Report, not left in chat.
-- A session that stops without writing its Report is a defect; the Stop hook (M2) refuses it.
+- A session that stops without writing its Report is a defect; the Stop hook (planned: M2, DESK-0065; not installed yet) will refuse it.
 - Scratchpad files are named by ticket ID; the ones worth keeping move into `intake/` or the repo before the session ends.
 - Two sessions never hold the same ticket (`drew claim` refuses it). Two tickets never describe the same outcome (triage checks `drew list` first).
 
