@@ -4,6 +4,7 @@
 @01-operating-thesis.md
 @10-slice-contract.md
 @15-text-formatting.md
+@16-answer-first.md
 @20-docs-duty.md
 @25-team-folders.md
 @26-structure.md
