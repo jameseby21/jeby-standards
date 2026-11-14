@@ -62,3 +62,12 @@ When stopping early, state the completed work, exact blocker, evidence, and one 
 > "the MAIN point of $follow-through is to automatically approve non-explicit tasks when they CLEARLY are subtasks/prerequisites of my original ask"
 
 A task that is clearly a subtask or prerequisite of the original ask is approved by the ask itself. The agent does it without asking, records it on the ticket, and never presents it as a blocker or a decision. The granular test for "clearly" is the `not-a-blocker` skill (three questions); the genuine stops are `restraint`'s.
+
+## In-prompt decisions (James, 2026-11-13, decision 123)
+
+> "decisions that require review and/or analysis those can stay in tickets, but anything that can reasonably be decided immediately should be included in the after-action report so as to minimize how many open tickets are present (ones that still require work/dev before a final human review). Thusly: any decision I make in-prompt (as opposed to within a ticket) should be properly recorded as a ticket update BUT ALSO as a $follow-through item"
+
+- **Two kinds of decision.** One that needs review or analysis lives in a ticket and waits there. One that can reasonably be made at once is put to the owner in the after-action report as a one-line choice with a recommended default, and is not a ticket of its own.
+- **A decision the owner states in chat is executed, not filed.** The same turn: the ticket it concerns gets the Decision line (or refinement) in his words, and the work it unlocks starts (the follow-through item), with the rollback noted. Nothing waits for him to repeat it in Desk.
+- **Check:** the after-action report has a section "Decided in-prompt this pass" listing each such decision, the ticket updated, and what was executed from it; the "Your decisions" section lists only what truly needs his review.
+

@@ -18,3 +18,8 @@ Trigger: Patch answered a question about his usage screen with "which I infer bu
 - Delete the first sentence and ask whether he lost the answer. If not, the first sentence was the superficial layer: cut it.
 - Every "I infer", "probably", "should", "may" in the reply is tested against what the screen, the record or the docs say; where they say it, the hedge goes.
 - An ask to him still carries meaning, step, ticket and date (gps), in that order after the answer.
+
+## Decisions in the report, not in tickets (decision 123)
+
+- A choice the owner can reasonably make at once goes in the after-action report as one line with the recommended default, never as its own ticket; only a decision that needs review or analysis is a ticket. A decision he states in chat is recorded on its ticket and executed the same turn (skill follow-through, section In-prompt decisions).
+
