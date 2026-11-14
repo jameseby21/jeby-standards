@@ -34,6 +34,7 @@ description: Priority rule (James's sanity; outranks feature quality). Before an
 3. **How to validate starts with any step the reader must run.** For example, "Start Desk if it is not running: `drew-ui` in a terminal (it serves http://127.0.0.1:8765)", followed by the checks.
 4. **Every process the agent started and leaves running is listed** with port, PID and version. Every process it stopped is listed too.
 5. **Repeat it.** The reader's memory of an earlier message is not a source; restate the state in each message that relies on it.
+6. **State the merge backlog in every pass report.** The report gives, for each repository, how many pull requests are open and the date of the oldest one. The command that counts them, and what to do about a long chain, are in the `release` skill (rule 2). A pass report without the backlog line is incomplete, because built but not merged counts as not running.
 
 ## Words for the levels
 

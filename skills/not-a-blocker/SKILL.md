@@ -31,6 +31,7 @@ When a choice is needed but reversible (a name, a list, an order, a threshold), 
 - No explanation of a gap appears without the ticket or file that closed it in the same sentence.
 - Reversible choices show a recorded default, not a waiting state.
 - The report's "waiting on James" list has been run through the three questions; items that fail are moved to work.
+- Before any question to the owner, search `DECISIONS.md` and the standards rules for an answer he already gave (`grep -n -i "<key words>" DECISIONS.md`, and the rules folder). If one exists, the answer is applied and cited by its decision number, and the question is not asked. A feature or record that breaks a standing rule is reported as a breach with its fix, never put to the owner as a question (failure catalog D6; lesson of 2026-11-13, DESK-0261).
 
 ## Applied
 

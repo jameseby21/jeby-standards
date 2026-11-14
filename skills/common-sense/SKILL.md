@@ -22,3 +22,6 @@ Use when a requirement implies a concrete operational check, a plan outgrows its
 
 ## Granular check: `not-a-blocker` (James, 2026-11-08)
 Common-sense has domain over claims of completion and blockers; the `not-a-blocker` skill is its granular test, run before anything is labelled a blocker, a dependency or a decision: is it a prerequisite of the ask (pre-approved by follow-through), can a present tool make it, or does it truly need James's credentials, body, money or a non-defaultable judgment? "Had no home" and its relatives fail the test.
+
+## Granular check: `readback`
+Before any sentence that says something was written, saved, committed, posted, fixed or counted, run the readback for that kind of write (skill `readback`): the evidence is read from where the thing lives, not from the tool that wrote it.

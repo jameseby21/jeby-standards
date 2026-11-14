@@ -23,3 +23,8 @@ chunked-delivery
 ideal-trajectory
 seriousness
 whimsy
+release
+delegation
+privacy-guard
+windows-pitfalls
+readback

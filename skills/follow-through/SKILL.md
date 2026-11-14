@@ -27,6 +27,7 @@ Profile choice changes checkpoint frequency, not truthfulness, safety, authoriza
 - Keep commentary as progress evidence; commentary never substitutes for the action it announces.
 - When a task has an explicit terminal condition, quote it internally and check it before handing back control.
 - Carry standing commit/push authority through each checkpoint. When the requested terminal condition includes a pushed commit, local commit success is intermediate evidence; verify remote containment before completion and preserve any actual network/authentication failure as a pending delivery boundary.
+- When the owner set a measurable goal (a count, a percentage, a date, a size, "all" or "any"), the report states actual against target in one line (for example "target: 40 fewer open tickets; actual: 31 fewer; short by 9"). A miss is stated as a miss, with the remaining work and the next step; it is never rounded up into a success, and a shortfall is put in the reply's first lines, not left for the owner to find (failure catalog A4; lesson of 2026-11-12).
 
 ## Pairing with restraint
 
