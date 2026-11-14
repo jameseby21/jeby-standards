@@ -43,7 +43,7 @@ description: Quality control after the work, and the independent checker. Use at
    - **specific**: it names the expected text, number or state, not "looks right";
    - **covering**: every acceptance line has a matching validation line.
 5. **Asks to James.** Check every ask in the final reply against skill `gps`, section "Asks to James": meaning, his step, the ticket with its title and link, by when, checked against reality. A missing part is a medium finding; an unchecked click path or command is high.
-6. **Report** in the format below. No fixes, no ticket moves. One comment per ticket with its findings, written through `drew comment <ID> "<text>" --as qc-checker`.
+6. **Report** in the format below. No fixes, no ticket moves. One comment per ticket with its findings, posted under the checker's own identity, never as anyone else: `DESK_ACTOR=qc-checker DESK_ACTOR_KIND=subagent drew comment <ID> "<text>"` (decision 110; `--as` another person is refused once DESK-0261 is installed). Until personal keys exist (DESK-0262), that identity is claimed, not verified.
 
 **Report format** (the checker's final message, also saved as `qc-<date>-<request>.md` in the scratchpad):
 
