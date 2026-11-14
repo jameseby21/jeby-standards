@@ -43,6 +43,13 @@ When the whole request is done and every subagent has reported, launch one indep
 
 Record each run's outcome in `standards/qc/checker-ledger.md` (see `qc`, section "Is it worth it"). QA owns that ledger. The checker is retired or redesigned when the ledger says it finds nothing the process missed.
 
+## Approvals along the way (James, 2026-11-13)
+
+> "obvious best choices approved along the way instead of being blocked by a human decision (while still maintaining the timeline and decision options for retroactively making admin-level changes and reverts/modifications)" (James, 2026-11-13, decision 115)
+
+- A choice with an obvious best option is taken, recorded as a dated line in the ticket's Decision with the options that were open, and the work continues; James can reverse it from that line. Only a choice that needs his credentials, his body, his money or a judgment with no defaultable answer waits for him (skill `not-a-blocker`).
+- The record keeps the alternatives, so a reversal is one line, not a reconstruction.
+
 ## The known failures
 
 `references/failure-catalog.md` lists the most common and the worst failures across the projects so far. Each has the rule that prevents it and the check that catches it. Read it when writing a brief or a How to validate. Add to it whenever a QC finding or a person finds something new.

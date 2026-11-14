@@ -55,6 +55,15 @@ description: Quality control after the work, and the independent checker. Use at
 
 Then a How-to-validate table: ticket, verdict (sound, or weak with the reason: not runnable, passes on base, stand-in, vague, gaps), and the line that needs rewriting.
 
+## Fixers: a finding with a test gets a minimal fixer (James, 2026-11-13)
+
+> "WAY MORE SIGNIFICANT QA/QC checks that are proactive in establishing minimal "fixer" subagents that develop based on the main agents' pre-defined tests" (James, 2026-11-13)
+
+- Every reviewer and checker finding names, where it can, the test that would prove the fix (a command and the output expected). That test is written down before any fixer starts.
+- For each confirmed finding with such a test, the main session starts one minimal fixer: the smallest model that can do it, one branch, one commit, the test red then green, no scope beyond the test. A finding without a test gets a ticket, not a fixer.
+- Fixers run in parallel, one per finding, never two on one file. Their reports paste into the ticket, and the checker's next run re-checks the fixed claim by a different route.
+- A fixer that cannot make the test green within its time box stops and reports; it never widens the change to force the test.
+
 ## Around the checker: documentor and housekeeping before, reviewer after
 
 - **Before:** the `documentor` subagent (lightest model) makes sure every item of the request is recorded at the depth it needs, and `housekeeping` puts things in their one place and clears what the request left behind, so the checker reads the final state.
